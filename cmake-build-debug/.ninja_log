@@ -1,0 +1,7 @@
+# ninja log v5
+728	1133	6844359991752426	C__Course_Lecture1_Fahrenheit.exe	521c1d8b1ab0df17
+1	390	6850166524445234	build.ninja	30e7939ab191a00
+4	745	6847397343521384	CMakeFiles/C__Course_Lecture1.dir/lecture1/week2.cpp.obj	53a77699850c5278
+0	705	6844358564786632	CMakeFiles/C__Course_Lecture1.dir/main.cpp.obj	c58c2b43a14bef7a
+746	1022	6847397346251562	C__Course_Lecture1.exe	f5c8c73e36eb5ff1
+5	727	6844359987765777	CMakeFiles/C__Course_Lecture1_Fahrenheit.dir/lecture1/fahrenheitToCelcius.cpp.obj	ca7f11eb64492908
