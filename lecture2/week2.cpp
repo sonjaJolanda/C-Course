@@ -25,5 +25,11 @@ int main() { //opening brace
     std::cout << ">> Please enter something!";
     std::cin >> i;
     std::cout << "Your entered " << i << std::endl;
+
+    int m = 1;
+    do
+        std::cout << "i is " << m++ << std::endl;
+    while (m <= 10);
+
     return 0; // you don't necessarily need to return something -> but if not, then the method head: void
 }
