@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: week3_4
+# Project: week4_3
 # Configurations: Debug
 # =============================================================================
 
@@ -268,6 +268,123 @@ build week3_4.exe: CXX_EXECUTABLE_LINKER__week3_4_Debug CMakeFiles/week3_4.dir/m
   TARGET_IMPLIB = libweek3_4.dll.a
   TARGET_PDB = week3_4.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target week4_1
+
+
+#############################################
+# Order-only phony target for week4_1
+
+build cmake_object_order_depends_target_week4_1: phony || CMakeFiles/week4_1.dir
+
+build CMakeFiles/week4_1.dir/main.cpp.obj: CXX_COMPILER__week4_1_Debug C$:/Users/sonja/Projects/C++Course/main.cpp || cmake_object_order_depends_target_week4_1
+  DEP_FILE = CMakeFiles\week4_1.dir\main.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\week4_1.dir
+  OBJECT_FILE_DIR = CMakeFiles\week4_1.dir
+
+build CMakeFiles/week4_1.dir/lecture4/week4_1.cpp.obj: CXX_COMPILER__week4_1_Debug C$:/Users/sonja/Projects/C++Course/lecture4/week4_1.cpp || cmake_object_order_depends_target_week4_1
+  DEP_FILE = CMakeFiles\week4_1.dir\lecture4\week4_1.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\week4_1.dir
+  OBJECT_FILE_DIR = CMakeFiles\week4_1.dir\lecture4
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target week4_1
+
+
+#############################################
+# Link the executable week4_1.exe
+
+build week4_1.exe: CXX_EXECUTABLE_LINKER__week4_1_Debug CMakeFiles/week4_1.dir/main.cpp.obj CMakeFiles/week4_1.dir/lecture4/week4_1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\week4_1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = week4_1.exe
+  TARGET_IMPLIB = libweek4_1.dll.a
+  TARGET_PDB = week4_1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target week4_2
+
+
+#############################################
+# Order-only phony target for week4_2
+
+build cmake_object_order_depends_target_week4_2: phony || CMakeFiles/week4_2.dir
+
+build CMakeFiles/week4_2.dir/main.cpp.obj: CXX_COMPILER__week4_2_Debug C$:/Users/sonja/Projects/C++Course/main.cpp || cmake_object_order_depends_target_week4_2
+  DEP_FILE = CMakeFiles\week4_2.dir\main.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\week4_2.dir
+  OBJECT_FILE_DIR = CMakeFiles\week4_2.dir
+
+build CMakeFiles/week4_2.dir/lecture4/week4_2.cpp.obj: CXX_COMPILER__week4_2_Debug C$:/Users/sonja/Projects/C++Course/lecture4/week4_2.cpp || cmake_object_order_depends_target_week4_2
+  DEP_FILE = CMakeFiles\week4_2.dir\lecture4\week4_2.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\week4_2.dir
+  OBJECT_FILE_DIR = CMakeFiles\week4_2.dir\lecture4
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target week4_2
+
+
+#############################################
+# Link the executable week4_2.exe
+
+build week4_2.exe: CXX_EXECUTABLE_LINKER__week4_2_Debug CMakeFiles/week4_2.dir/main.cpp.obj CMakeFiles/week4_2.dir/lecture4/week4_2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\week4_2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = week4_2.exe
+  TARGET_IMPLIB = libweek4_2.dll.a
+  TARGET_PDB = week4_2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target week4_3
+
+
+#############################################
+# Order-only phony target for week4_3
+
+build cmake_object_order_depends_target_week4_3: phony || CMakeFiles/week4_3.dir
+
+build CMakeFiles/week4_3.dir/main.cpp.obj: CXX_COMPILER__week4_3_Debug C$:/Users/sonja/Projects/C++Course/main.cpp || cmake_object_order_depends_target_week4_3
+  DEP_FILE = CMakeFiles\week4_3.dir\main.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\week4_3.dir
+  OBJECT_FILE_DIR = CMakeFiles\week4_3.dir
+
+build CMakeFiles/week4_3.dir/lecture4/week4_3.cpp.obj: CXX_COMPILER__week4_3_Debug C$:/Users/sonja/Projects/C++Course/lecture4/week4_3.cpp || cmake_object_order_depends_target_week4_3
+  DEP_FILE = CMakeFiles\week4_3.dir\lecture4\week4_3.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\week4_3.dir
+  OBJECT_FILE_DIR = CMakeFiles\week4_3.dir\lecture4
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target week4_3
+
+
+#############################################
+# Link the executable week4_3.exe
+
+build week4_3.exe: CXX_EXECUTABLE_LINKER__week4_3_Debug CMakeFiles/week4_3.dir/main.cpp.obj CMakeFiles/week4_3.dir/lecture4/week4_3.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\week4_3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = week4_3.exe
+  TARGET_IMPLIB = libweek4_3.dll.a
+  TARGET_PDB = week4_3.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -306,6 +423,12 @@ build week3_3: phony week3_3.exe
 
 build week3_4: phony week3_4.exe
 
+build week4_1: phony week4_1.exe
+
+build week4_2: phony week4_2.exe
+
+build week4_3: phony week4_3.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -314,7 +437,7 @@ build week3_4: phony week3_4.exe
 #############################################
 # Folder: C:/Users/sonja/Projects/C++Course/cmake-build-debug
 
-build all: phony week1_Fahrenheit.exe week2.exe week3_1.exe week3_2.exe week3_3.exe week3_4.exe
+build all: phony week1_Fahrenheit.exe week2.exe week3_1.exe week3_2.exe week3_3.exe week3_4.exe week4_1.exe week4_2.exe week4_3.exe
 
 # =============================================================================
 # Built-in targets
