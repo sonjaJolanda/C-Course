@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: week5_3
+# Project: week5_4
 # Configurations: Debug
 # =============================================================================
 
@@ -502,6 +502,45 @@ build week5_3.exe: CXX_EXECUTABLE_LINKER__week5_3_Debug CMakeFiles/week5_3.dir/m
   TARGET_IMPLIB = libweek5_3.dll.a
   TARGET_PDB = week5_3.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target week5_4
+
+
+#############################################
+# Order-only phony target for week5_4
+
+build cmake_object_order_depends_target_week5_4: phony || CMakeFiles/week5_4.dir
+
+build CMakeFiles/week5_4.dir/main.cpp.obj: CXX_COMPILER__week5_4_Debug C$:/Users/sonja/Projects/C++Course/main.cpp || cmake_object_order_depends_target_week5_4
+  DEP_FILE = CMakeFiles\week5_4.dir\main.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\week5_4.dir
+  OBJECT_FILE_DIR = CMakeFiles\week5_4.dir
+
+build CMakeFiles/week5_4.dir/lecture5/week5_4_HW2.cpp.obj: CXX_COMPILER__week5_4_Debug C$:/Users/sonja/Projects/C++Course/lecture5/week5_4_HW2.cpp || cmake_object_order_depends_target_week5_4
+  DEP_FILE = CMakeFiles\week5_4.dir\lecture5\week5_4_HW2.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\week5_4.dir
+  OBJECT_FILE_DIR = CMakeFiles\week5_4.dir\lecture5
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target week5_4
+
+
+#############################################
+# Link the executable week5_4.exe
+
+build week5_4.exe: CXX_EXECUTABLE_LINKER__week5_4_Debug CMakeFiles/week5_4.dir/main.cpp.obj CMakeFiles/week5_4.dir/lecture5/week5_4_HW2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\week5_4.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = week5_4.exe
+  TARGET_IMPLIB = libweek5_4.dll.a
+  TARGET_PDB = week5_4.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -552,6 +591,8 @@ build week5_2: phony week5_2.exe
 
 build week5_3: phony week5_3.exe
 
+build week5_4: phony week5_4.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -560,7 +601,7 @@ build week5_3: phony week5_3.exe
 #############################################
 # Folder: C:/Users/sonja/Projects/C++Course/cmake-build-debug
 
-build all: phony week1_Fahrenheit.exe week2.exe week3_1.exe week3_2.exe week3_3.exe week3_4.exe week4_1.exe week4_2.exe week4_3.exe week5_1.exe week5_2.exe week5_3.exe
+build all: phony week1_Fahrenheit.exe week2.exe week3_1.exe week3_2.exe week3_3.exe week3_4.exe week4_1.exe week4_2.exe week4_3.exe week5_1.exe week5_2.exe week5_3.exe week5_4.exe
 
 # =============================================================================
 # Built-in targets
