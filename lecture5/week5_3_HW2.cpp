@@ -37,5 +37,11 @@ int main() {
     std::cout << ">> Please enter a number: ";
     std::cin >> nEntered;
     permutateNumbers(nEntered);
+
+    int x = 0;
+    int *p;
+    p = &x;
+    *p = 5;
+
     return 0;
 }
