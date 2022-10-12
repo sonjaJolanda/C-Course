@@ -11,15 +11,15 @@ void count_chars_with_letter(char text[], char letterToSearchFor) {
     std::cout << (char) toupper(letterToSearchFor) << ", " << letterToSearchFor << " : " << counter << std::endl;
 }
 
-void count_chars(char text[]) {
+void count_chars_1(char text[]) {
     for (int htmlCode = 97; htmlCode <= 122; htmlCode++)
         count_chars_with_letter(text, (char) htmlCode);
 }
 
-void count_chars_other_solution(char text[]) {
+void count_chars_2(char text[]) {
     int counters[26] = {};
     for (char *letter = &text[0]; *letter; letter = letter + 1) {
-        int htmlCode = (int) *letter;
+        int htmlCode = (int) tolower(*letter);
         if (htmlCode >= 97 || htmlCode <= 122)
             counters[htmlCode - 97] += 1;
     }
@@ -30,26 +30,26 @@ void count_chars_other_solution(char text[]) {
 
 void count_chars_with_bar_graph(char text[]) {
     int counters[26] = {0};
-    std::string sentence = text;
-
-    for (char& letterInText : sentence) {
-        int letterAsNr = (int) tolower(letterInText) - 97;
-        if (letterAsNr >= 0 || letterAsNr <= 25) {
-            counters[letterAsNr] += 1;
-        }
+    // count all the letters
+    for (char *letter = &text[0]; *letter; letter = letter + 1) {
+        int htmlCode = (int) tolower(*letter);
+        if (htmlCode >= 97 || htmlCode <= 122)
+            counters[htmlCode - 97] += 1;
     }
 
+    // find the max
     int max = 0;
     for (int counter : counters){
         if (counter > max) max = counter;
     }
 
-    for (int currentBarHeight = max; currentBarHeight >= 0; currentBarHeight--) {
+    // print the bar graph
+    for (int currentY = max; currentY >= 0; currentY--) {
          for (int counter = 0; counter <= 25; counter++) {
-             if (currentBarHeight == 0){
+             if (currentY == 0){
                  std::cout << (char) (counter + 65);
              }
-             else if (counters[counter] >= currentBarHeight)
+             else if (counters[counter] >= currentY)
                  std::cout << "*";
              else
                  std::cout << " ";
@@ -59,11 +59,11 @@ void count_chars_with_bar_graph(char text[]) {
 }
 
 int main() {
-    char text[] = "Today is a nice day for having a little picnic.";
-    char text2[] = "Zoomania is a zoo movie.";
-    //count_chars(text);
+    char text2[] = "Today is a nice day for having a little picnic.";
+    char text[] = "Zoomania is a zoo movie.";
+    count_chars_1(text);
     std::cout << "\n\n";
-    //count_chars_other_solution(text);
+    count_chars_2(text);
     std::cout << "\n\n";
     count_chars_with_bar_graph(text);
     return 0;
