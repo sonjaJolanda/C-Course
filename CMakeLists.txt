@@ -18,6 +18,8 @@ project(week6_1)
 project(week6_2)
 project(week6_3)
 
+project(week7_1)
+
 set(CMAKE_CXX_STANDARD 14)
 
 
@@ -42,3 +44,6 @@ add_executable(week5_4 main.cpp lecture5/week5_4_HW2.cpp)
 add_executable(week6_1 main.cpp lecture6/week6_1.cpp)
 add_executable(week6_2 main.cpp lecture6/week6_2.cpp)
 add_executable(week6_3 main.cpp lecture6/week6_3.cpp)
+
+
+add_executable(week7_1 main.cpp lecture7/week7_1.cpp)
