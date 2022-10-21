@@ -46,4 +46,4 @@ add_executable(week6_2 main.cpp lecture6/pointers_arrays.cpp)
 add_executable(week6_3 main.cpp lecture6/homework3_Ex1.cpp)
 
 
-add_executable(week7_1 main.cpp lecture7/week7_1.cpp)
+add_executable(week7_1 main.cpp)
