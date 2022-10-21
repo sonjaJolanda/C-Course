@@ -27,14 +27,14 @@ add_executable(week1_Fahrenheit lecture1/fahrenheitToCelcius.cpp)
 
 add_executable(week2 main.cpp lecture2/week2.cpp)
 
-add_executable(week3_1 main.cpp lecture3/week3_Ex1.cpp)
-add_executable(week3_2 main.cpp lecture3/week3_Ex2.cpp)
-add_executable(week3_3 main.cpp lecture3/week3_Ex3.cpp)
-add_executable(week3_4 main.cpp lecture3/week3_Ex4.cpp)
+add_executable(week3_1 main.cpp lecture4/homework1_Ex1.cpp)
+add_executable(week3_2 main.cpp lecture4/homework1_Ex2.cpp)
+add_executable(week3_3 main.cpp lecture4/homework1_Ex3.cpp)
+add_executable(week3_4 main.cpp lecture4/homework1_Ex4.cpp)
 
-add_executable(week4_1 main.cpp lecture4/week4_1.cpp)
-add_executable(week4_2 main.cpp lecture4/week4_2.cpp)
-add_executable(week4_3 main.cpp lecture4/week4_3.cpp)
+add_executable(week4_1 main.cpp lecture4/tower_of_hanoi.cpp)
+add_executable(week4_2 main.cpp lecture4/global_variables_1.cpp)
+add_executable(week4_3 main.cpp lecture4/global_variables_2.cpp)
 
 add_executable(week5_1 main.cpp lecture5/week5_1.cpp)
 add_executable(week5_2 main.cpp lecture5/week5_2_HW2.cpp)
