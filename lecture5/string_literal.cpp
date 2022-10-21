@@ -2,19 +2,7 @@
 
 #include <iostream>
 
-int swap(int &a, int &b) {
-    int temp = a;
-    a = b;
-    b = temp;
-}
-
 int main() {
-    int i = 2;
-    int j = 4;
-    swap(i, j);
-    std::cout << "i:" << i << ", j:" << j << std::endl;
-
-    //-----------------------------------
 
     char p[] = {'A', 'r', 'n', 'e'};
     std::cout << "size of p:" << sizeof(p) << " (" << p << ") " << std::endl;

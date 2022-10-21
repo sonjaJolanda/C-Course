@@ -36,14 +36,14 @@ add_executable(week4_1 main.cpp lecture4/tower_of_hanoi.cpp)
 add_executable(week4_2 main.cpp lecture4/global_variables_1.cpp)
 add_executable(week4_3 main.cpp lecture4/global_variables_2.cpp)
 
-add_executable(week5_1 main.cpp lecture5/swap_and_string_literal.cpp)
+add_executable(week5_1 main.cpp lecture5/string_literal.cpp)
 add_executable(week5_2 main.cpp lecture5/homework2_Ex1.cpp)
 add_executable(week5_3 main.cpp lecture5/homework2_Ex2.cpp)
 add_executable(week5_4 main.cpp lecture5/homework2_Ex3.cpp)
 
-add_executable(week6_1 main.cpp lecture6/week6_1.cpp)
-add_executable(week6_2 main.cpp lecture6/week6_2.cpp)
-add_executable(week6_3 main.cpp lecture6/week6_3.cpp)
+add_executable(week6_1 main.cpp lecture6/swap.cpp)
+add_executable(week6_2 main.cpp lecture6/pointers_arrays.cpp)
+add_executable(week6_3 main.cpp lecture6/homework3_Ex1.cpp)
 
 
 add_executable(week7_1 main.cpp lecture7/week7_1.cpp)
