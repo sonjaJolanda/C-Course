@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: week7_1
+# Project: homework3_Ex1
 # Configurations: Debug
 # =============================================================================
 
@@ -41,37 +41,37 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/sonja/Projects/C++Course/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target week1_Fahrenheit
+# Object build statements for EXECUTABLE target fahrenheitToCelcius
 
 
 #############################################
-# Order-only phony target for week1_Fahrenheit
+# Order-only phony target for fahrenheitToCelcius
 
-build cmake_object_order_depends_target_week1_Fahrenheit: phony || CMakeFiles/week1_Fahrenheit.dir
+build cmake_object_order_depends_target_fahrenheitToCelcius: phony || CMakeFiles/fahrenheitToCelcius.dir
 
-build CMakeFiles/week1_Fahrenheit.dir/lecture1/fahrenheitToCelcius.cpp.obj: CXX_COMPILER__week1_Fahrenheit_Debug C$:/Users/sonja/Projects/C++Course/lecture1/fahrenheitToCelcius.cpp || cmake_object_order_depends_target_week1_Fahrenheit
-  DEP_FILE = CMakeFiles\week1_Fahrenheit.dir\lecture1\fahrenheitToCelcius.cpp.obj.d
+build CMakeFiles/fahrenheitToCelcius.dir/lecture1/fahrenheitToCelcius.cpp.obj: CXX_COMPILER__fahrenheitToCelcius_Debug C$:/Users/sonja/Projects/C++Course/lecture1/fahrenheitToCelcius.cpp || cmake_object_order_depends_target_fahrenheitToCelcius
+  DEP_FILE = CMakeFiles\fahrenheitToCelcius.dir\lecture1\fahrenheitToCelcius.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\week1_Fahrenheit.dir
-  OBJECT_FILE_DIR = CMakeFiles\week1_Fahrenheit.dir\lecture1
+  OBJECT_DIR = CMakeFiles\fahrenheitToCelcius.dir
+  OBJECT_FILE_DIR = CMakeFiles\fahrenheitToCelcius.dir\lecture1
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target week1_Fahrenheit
+# Link build statements for EXECUTABLE target fahrenheitToCelcius
 
 
 #############################################
-# Link the executable week1_Fahrenheit.exe
+# Link the executable fahrenheitToCelcius.exe
 
-build week1_Fahrenheit.exe: CXX_EXECUTABLE_LINKER__week1_Fahrenheit_Debug CMakeFiles/week1_Fahrenheit.dir/lecture1/fahrenheitToCelcius.cpp.obj
+build fahrenheitToCelcius.exe: CXX_EXECUTABLE_LINKER__fahrenheitToCelcius_Debug CMakeFiles/fahrenheitToCelcius.dir/lecture1/fahrenheitToCelcius.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\week1_Fahrenheit.dir
+  OBJECT_DIR = CMakeFiles\fahrenheitToCelcius.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = week1_Fahrenheit.exe
-  TARGET_IMPLIB = libweek1_Fahrenheit.dll.a
-  TARGET_PDB = week1_Fahrenheit.exe.dbg
+  TARGET_FILE = fahrenheitToCelcius.exe
+  TARGET_IMPLIB = libfahrenheitToCelcius.dll.a
+  TARGET_PDB = fahrenheitToCelcius.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target week2
@@ -81,12 +81,6 @@ build week1_Fahrenheit.exe: CXX_EXECUTABLE_LINKER__week1_Fahrenheit_Debug CMakeF
 # Order-only phony target for week2
 
 build cmake_object_order_depends_target_week2: phony || CMakeFiles/week2.dir
-
-build CMakeFiles/week2.dir/main.cpp.obj: CXX_COMPILER__week2_Debug C$:/Users/sonja/Projects/C++Course/main.cpp || cmake_object_order_depends_target_week2
-  DEP_FILE = CMakeFiles\week2.dir\main.cpp.obj.d
-  FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\week2.dir
-  OBJECT_FILE_DIR = CMakeFiles\week2.dir
 
 build CMakeFiles/week2.dir/lecture2/week2.cpp.obj: CXX_COMPILER__week2_Debug C$:/Users/sonja/Projects/C++Course/lecture2/week2.cpp || cmake_object_order_depends_target_week2
   DEP_FILE = CMakeFiles\week2.dir\lecture2\week2.cpp.obj.d
@@ -102,7 +96,7 @@ build CMakeFiles/week2.dir/lecture2/week2.cpp.obj: CXX_COMPILER__week2_Debug C$:
 #############################################
 # Link the executable week2.exe
 
-build week2.exe: CXX_EXECUTABLE_LINKER__week2_Debug CMakeFiles/week2.dir/main.cpp.obj CMakeFiles/week2.dir/lecture2/week2.cpp.obj
+build week2.exe: CXX_EXECUTABLE_LINKER__week2_Debug CMakeFiles/week2.dir/lecture2/week2.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\week2.dir
@@ -113,589 +107,466 @@ build week2.exe: CXX_EXECUTABLE_LINKER__week2_Debug CMakeFiles/week2.dir/main.cp
   TARGET_PDB = week2.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target week3_1
+# Object build statements for EXECUTABLE target homework1_Ex1
 
 
 #############################################
-# Order-only phony target for week3_1
+# Order-only phony target for homework1_Ex1
 
-build cmake_object_order_depends_target_week3_1: phony || CMakeFiles/week3_1.dir
+build cmake_object_order_depends_target_homework1_Ex1: phony || CMakeFiles/homework1_Ex1.dir
 
-build CMakeFiles/week3_1.dir/main.cpp.obj: CXX_COMPILER__week3_1_Debug C$:/Users/sonja/Projects/C++Course/main.cpp || cmake_object_order_depends_target_week3_1
-  DEP_FILE = CMakeFiles\week3_1.dir\main.cpp.obj.d
+build CMakeFiles/homework1_Ex1.dir/lecture4/homework1_Ex1.cpp.obj: CXX_COMPILER__homework1_Ex1_Debug C$:/Users/sonja/Projects/C++Course/lecture4/homework1_Ex1.cpp || cmake_object_order_depends_target_homework1_Ex1
+  DEP_FILE = CMakeFiles\homework1_Ex1.dir\lecture4\homework1_Ex1.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\week3_1.dir
-  OBJECT_FILE_DIR = CMakeFiles\week3_1.dir
-
-build CMakeFiles/week3_1.dir/lecture3/week3_Ex1.cpp.obj: CXX_COMPILER__week3_1_Debug C$:/Users/sonja/Projects/C++Course/lecture3/week3_Ex1.cpp || cmake_object_order_depends_target_week3_1
-  DEP_FILE = CMakeFiles\week3_1.dir\lecture3\week3_Ex1.cpp.obj.d
-  FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\week3_1.dir
-  OBJECT_FILE_DIR = CMakeFiles\week3_1.dir\lecture3
+  OBJECT_DIR = CMakeFiles\homework1_Ex1.dir
+  OBJECT_FILE_DIR = CMakeFiles\homework1_Ex1.dir\lecture4
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target week3_1
+# Link build statements for EXECUTABLE target homework1_Ex1
 
 
 #############################################
-# Link the executable week3_1.exe
+# Link the executable homework1_Ex1.exe
 
-build week3_1.exe: CXX_EXECUTABLE_LINKER__week3_1_Debug CMakeFiles/week3_1.dir/main.cpp.obj CMakeFiles/week3_1.dir/lecture3/week3_Ex1.cpp.obj
+build homework1_Ex1.exe: CXX_EXECUTABLE_LINKER__homework1_Ex1_Debug CMakeFiles/homework1_Ex1.dir/lecture4/homework1_Ex1.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\week3_1.dir
+  OBJECT_DIR = CMakeFiles\homework1_Ex1.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = week3_1.exe
-  TARGET_IMPLIB = libweek3_1.dll.a
-  TARGET_PDB = week3_1.exe.dbg
+  TARGET_FILE = homework1_Ex1.exe
+  TARGET_IMPLIB = libhomework1_Ex1.dll.a
+  TARGET_PDB = homework1_Ex1.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target week3_2
+# Object build statements for EXECUTABLE target homework1_Ex2
 
 
 #############################################
-# Order-only phony target for week3_2
+# Order-only phony target for homework1_Ex2
 
-build cmake_object_order_depends_target_week3_2: phony || CMakeFiles/week3_2.dir
+build cmake_object_order_depends_target_homework1_Ex2: phony || CMakeFiles/homework1_Ex2.dir
 
-build CMakeFiles/week3_2.dir/main.cpp.obj: CXX_COMPILER__week3_2_Debug C$:/Users/sonja/Projects/C++Course/main.cpp || cmake_object_order_depends_target_week3_2
-  DEP_FILE = CMakeFiles\week3_2.dir\main.cpp.obj.d
+build CMakeFiles/homework1_Ex2.dir/lecture4/homework1_Ex2.cpp.obj: CXX_COMPILER__homework1_Ex2_Debug C$:/Users/sonja/Projects/C++Course/lecture4/homework1_Ex2.cpp || cmake_object_order_depends_target_homework1_Ex2
+  DEP_FILE = CMakeFiles\homework1_Ex2.dir\lecture4\homework1_Ex2.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\week3_2.dir
-  OBJECT_FILE_DIR = CMakeFiles\week3_2.dir
-
-build CMakeFiles/week3_2.dir/lecture3/week3_Ex2.cpp.obj: CXX_COMPILER__week3_2_Debug C$:/Users/sonja/Projects/C++Course/lecture3/week3_Ex2.cpp || cmake_object_order_depends_target_week3_2
-  DEP_FILE = CMakeFiles\week3_2.dir\lecture3\week3_Ex2.cpp.obj.d
-  FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\week3_2.dir
-  OBJECT_FILE_DIR = CMakeFiles\week3_2.dir\lecture3
+  OBJECT_DIR = CMakeFiles\homework1_Ex2.dir
+  OBJECT_FILE_DIR = CMakeFiles\homework1_Ex2.dir\lecture4
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target week3_2
+# Link build statements for EXECUTABLE target homework1_Ex2
 
 
 #############################################
-# Link the executable week3_2.exe
+# Link the executable homework1_Ex2.exe
 
-build week3_2.exe: CXX_EXECUTABLE_LINKER__week3_2_Debug CMakeFiles/week3_2.dir/main.cpp.obj CMakeFiles/week3_2.dir/lecture3/week3_Ex2.cpp.obj
+build homework1_Ex2.exe: CXX_EXECUTABLE_LINKER__homework1_Ex2_Debug CMakeFiles/homework1_Ex2.dir/lecture4/homework1_Ex2.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\week3_2.dir
+  OBJECT_DIR = CMakeFiles\homework1_Ex2.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = week3_2.exe
-  TARGET_IMPLIB = libweek3_2.dll.a
-  TARGET_PDB = week3_2.exe.dbg
+  TARGET_FILE = homework1_Ex2.exe
+  TARGET_IMPLIB = libhomework1_Ex2.dll.a
+  TARGET_PDB = homework1_Ex2.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target week3_3
+# Object build statements for EXECUTABLE target homework1_Ex3
 
 
 #############################################
-# Order-only phony target for week3_3
+# Order-only phony target for homework1_Ex3
 
-build cmake_object_order_depends_target_week3_3: phony || CMakeFiles/week3_3.dir
+build cmake_object_order_depends_target_homework1_Ex3: phony || CMakeFiles/homework1_Ex3.dir
 
-build CMakeFiles/week3_3.dir/main.cpp.obj: CXX_COMPILER__week3_3_Debug C$:/Users/sonja/Projects/C++Course/main.cpp || cmake_object_order_depends_target_week3_3
-  DEP_FILE = CMakeFiles\week3_3.dir\main.cpp.obj.d
+build CMakeFiles/homework1_Ex3.dir/lecture4/homework1_Ex3.cpp.obj: CXX_COMPILER__homework1_Ex3_Debug C$:/Users/sonja/Projects/C++Course/lecture4/homework1_Ex3.cpp || cmake_object_order_depends_target_homework1_Ex3
+  DEP_FILE = CMakeFiles\homework1_Ex3.dir\lecture4\homework1_Ex3.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\week3_3.dir
-  OBJECT_FILE_DIR = CMakeFiles\week3_3.dir
-
-build CMakeFiles/week3_3.dir/lecture3/week3_Ex3.cpp.obj: CXX_COMPILER__week3_3_Debug C$:/Users/sonja/Projects/C++Course/lecture3/week3_Ex3.cpp || cmake_object_order_depends_target_week3_3
-  DEP_FILE = CMakeFiles\week3_3.dir\lecture3\week3_Ex3.cpp.obj.d
-  FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\week3_3.dir
-  OBJECT_FILE_DIR = CMakeFiles\week3_3.dir\lecture3
+  OBJECT_DIR = CMakeFiles\homework1_Ex3.dir
+  OBJECT_FILE_DIR = CMakeFiles\homework1_Ex3.dir\lecture4
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target week3_3
+# Link build statements for EXECUTABLE target homework1_Ex3
 
 
 #############################################
-# Link the executable week3_3.exe
+# Link the executable homework1_Ex3.exe
 
-build week3_3.exe: CXX_EXECUTABLE_LINKER__week3_3_Debug CMakeFiles/week3_3.dir/main.cpp.obj CMakeFiles/week3_3.dir/lecture3/week3_Ex3.cpp.obj
+build homework1_Ex3.exe: CXX_EXECUTABLE_LINKER__homework1_Ex3_Debug CMakeFiles/homework1_Ex3.dir/lecture4/homework1_Ex3.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\week3_3.dir
+  OBJECT_DIR = CMakeFiles\homework1_Ex3.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = week3_3.exe
-  TARGET_IMPLIB = libweek3_3.dll.a
-  TARGET_PDB = week3_3.exe.dbg
+  TARGET_FILE = homework1_Ex3.exe
+  TARGET_IMPLIB = libhomework1_Ex3.dll.a
+  TARGET_PDB = homework1_Ex3.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target week3_4
+# Object build statements for EXECUTABLE target homework1_Ex4
 
 
 #############################################
-# Order-only phony target for week3_4
+# Order-only phony target for homework1_Ex4
 
-build cmake_object_order_depends_target_week3_4: phony || CMakeFiles/week3_4.dir
+build cmake_object_order_depends_target_homework1_Ex4: phony || CMakeFiles/homework1_Ex4.dir
 
-build CMakeFiles/week3_4.dir/main.cpp.obj: CXX_COMPILER__week3_4_Debug C$:/Users/sonja/Projects/C++Course/main.cpp || cmake_object_order_depends_target_week3_4
-  DEP_FILE = CMakeFiles\week3_4.dir\main.cpp.obj.d
+build CMakeFiles/homework1_Ex4.dir/lecture4/homework1_Ex4.cpp.obj: CXX_COMPILER__homework1_Ex4_Debug C$:/Users/sonja/Projects/C++Course/lecture4/homework1_Ex4.cpp || cmake_object_order_depends_target_homework1_Ex4
+  DEP_FILE = CMakeFiles\homework1_Ex4.dir\lecture4\homework1_Ex4.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\week3_4.dir
-  OBJECT_FILE_DIR = CMakeFiles\week3_4.dir
-
-build CMakeFiles/week3_4.dir/lecture3/week3_Ex4.cpp.obj: CXX_COMPILER__week3_4_Debug C$:/Users/sonja/Projects/C++Course/lecture3/week3_Ex4.cpp || cmake_object_order_depends_target_week3_4
-  DEP_FILE = CMakeFiles\week3_4.dir\lecture3\week3_Ex4.cpp.obj.d
-  FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\week3_4.dir
-  OBJECT_FILE_DIR = CMakeFiles\week3_4.dir\lecture3
+  OBJECT_DIR = CMakeFiles\homework1_Ex4.dir
+  OBJECT_FILE_DIR = CMakeFiles\homework1_Ex4.dir\lecture4
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target week3_4
+# Link build statements for EXECUTABLE target homework1_Ex4
 
 
 #############################################
-# Link the executable week3_4.exe
+# Link the executable homework1_Ex4.exe
 
-build week3_4.exe: CXX_EXECUTABLE_LINKER__week3_4_Debug CMakeFiles/week3_4.dir/main.cpp.obj CMakeFiles/week3_4.dir/lecture3/week3_Ex4.cpp.obj
+build homework1_Ex4.exe: CXX_EXECUTABLE_LINKER__homework1_Ex4_Debug CMakeFiles/homework1_Ex4.dir/lecture4/homework1_Ex4.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\week3_4.dir
+  OBJECT_DIR = CMakeFiles\homework1_Ex4.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = week3_4.exe
-  TARGET_IMPLIB = libweek3_4.dll.a
-  TARGET_PDB = week3_4.exe.dbg
+  TARGET_FILE = homework1_Ex4.exe
+  TARGET_IMPLIB = libhomework1_Ex4.dll.a
+  TARGET_PDB = homework1_Ex4.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target week4_1
+# Object build statements for EXECUTABLE target tower_of_hanoi
 
 
 #############################################
-# Order-only phony target for week4_1
+# Order-only phony target for tower_of_hanoi
 
-build cmake_object_order_depends_target_week4_1: phony || CMakeFiles/week4_1.dir
+build cmake_object_order_depends_target_tower_of_hanoi: phony || CMakeFiles/tower_of_hanoi.dir
 
-build CMakeFiles/week4_1.dir/main.cpp.obj: CXX_COMPILER__week4_1_Debug C$:/Users/sonja/Projects/C++Course/main.cpp || cmake_object_order_depends_target_week4_1
-  DEP_FILE = CMakeFiles\week4_1.dir\main.cpp.obj.d
+build CMakeFiles/tower_of_hanoi.dir/lecture4/tower_of_hanoi.cpp.obj: CXX_COMPILER__tower_of_hanoi_Debug C$:/Users/sonja/Projects/C++Course/lecture4/tower_of_hanoi.cpp || cmake_object_order_depends_target_tower_of_hanoi
+  DEP_FILE = CMakeFiles\tower_of_hanoi.dir\lecture4\tower_of_hanoi.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\week4_1.dir
-  OBJECT_FILE_DIR = CMakeFiles\week4_1.dir
-
-build CMakeFiles/week4_1.dir/lecture4/week4_1.cpp.obj: CXX_COMPILER__week4_1_Debug C$:/Users/sonja/Projects/C++Course/lecture4/week4_1.cpp || cmake_object_order_depends_target_week4_1
-  DEP_FILE = CMakeFiles\week4_1.dir\lecture4\week4_1.cpp.obj.d
-  FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\week4_1.dir
-  OBJECT_FILE_DIR = CMakeFiles\week4_1.dir\lecture4
+  OBJECT_DIR = CMakeFiles\tower_of_hanoi.dir
+  OBJECT_FILE_DIR = CMakeFiles\tower_of_hanoi.dir\lecture4
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target week4_1
+# Link build statements for EXECUTABLE target tower_of_hanoi
 
 
 #############################################
-# Link the executable week4_1.exe
+# Link the executable tower_of_hanoi.exe
 
-build week4_1.exe: CXX_EXECUTABLE_LINKER__week4_1_Debug CMakeFiles/week4_1.dir/main.cpp.obj CMakeFiles/week4_1.dir/lecture4/week4_1.cpp.obj
+build tower_of_hanoi.exe: CXX_EXECUTABLE_LINKER__tower_of_hanoi_Debug CMakeFiles/tower_of_hanoi.dir/lecture4/tower_of_hanoi.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\week4_1.dir
+  OBJECT_DIR = CMakeFiles\tower_of_hanoi.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = week4_1.exe
-  TARGET_IMPLIB = libweek4_1.dll.a
-  TARGET_PDB = week4_1.exe.dbg
+  TARGET_FILE = tower_of_hanoi.exe
+  TARGET_IMPLIB = libtower_of_hanoi.dll.a
+  TARGET_PDB = tower_of_hanoi.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target week4_2
+# Object build statements for EXECUTABLE target global_variables_1
 
 
 #############################################
-# Order-only phony target for week4_2
+# Order-only phony target for global_variables_1
 
-build cmake_object_order_depends_target_week4_2: phony || CMakeFiles/week4_2.dir
+build cmake_object_order_depends_target_global_variables_1: phony || CMakeFiles/global_variables_1.dir
 
-build CMakeFiles/week4_2.dir/main.cpp.obj: CXX_COMPILER__week4_2_Debug C$:/Users/sonja/Projects/C++Course/main.cpp || cmake_object_order_depends_target_week4_2
-  DEP_FILE = CMakeFiles\week4_2.dir\main.cpp.obj.d
+build CMakeFiles/global_variables_1.dir/lecture4/global_variables_1.cpp.obj: CXX_COMPILER__global_variables_1_Debug C$:/Users/sonja/Projects/C++Course/lecture4/global_variables_1.cpp || cmake_object_order_depends_target_global_variables_1
+  DEP_FILE = CMakeFiles\global_variables_1.dir\lecture4\global_variables_1.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\week4_2.dir
-  OBJECT_FILE_DIR = CMakeFiles\week4_2.dir
-
-build CMakeFiles/week4_2.dir/lecture4/week4_2.cpp.obj: CXX_COMPILER__week4_2_Debug C$:/Users/sonja/Projects/C++Course/lecture4/week4_2.cpp || cmake_object_order_depends_target_week4_2
-  DEP_FILE = CMakeFiles\week4_2.dir\lecture4\week4_2.cpp.obj.d
-  FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\week4_2.dir
-  OBJECT_FILE_DIR = CMakeFiles\week4_2.dir\lecture4
+  OBJECT_DIR = CMakeFiles\global_variables_1.dir
+  OBJECT_FILE_DIR = CMakeFiles\global_variables_1.dir\lecture4
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target week4_2
+# Link build statements for EXECUTABLE target global_variables_1
 
 
 #############################################
-# Link the executable week4_2.exe
+# Link the executable global_variables_1.exe
 
-build week4_2.exe: CXX_EXECUTABLE_LINKER__week4_2_Debug CMakeFiles/week4_2.dir/main.cpp.obj CMakeFiles/week4_2.dir/lecture4/week4_2.cpp.obj
+build global_variables_1.exe: CXX_EXECUTABLE_LINKER__global_variables_1_Debug CMakeFiles/global_variables_1.dir/lecture4/global_variables_1.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\week4_2.dir
+  OBJECT_DIR = CMakeFiles\global_variables_1.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = week4_2.exe
-  TARGET_IMPLIB = libweek4_2.dll.a
-  TARGET_PDB = week4_2.exe.dbg
+  TARGET_FILE = global_variables_1.exe
+  TARGET_IMPLIB = libglobal_variables_1.dll.a
+  TARGET_PDB = global_variables_1.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target week4_3
+# Object build statements for EXECUTABLE target global_variables_2
 
 
 #############################################
-# Order-only phony target for week4_3
+# Order-only phony target for global_variables_2
 
-build cmake_object_order_depends_target_week4_3: phony || CMakeFiles/week4_3.dir
+build cmake_object_order_depends_target_global_variables_2: phony || CMakeFiles/global_variables_2.dir
 
-build CMakeFiles/week4_3.dir/main.cpp.obj: CXX_COMPILER__week4_3_Debug C$:/Users/sonja/Projects/C++Course/main.cpp || cmake_object_order_depends_target_week4_3
-  DEP_FILE = CMakeFiles\week4_3.dir\main.cpp.obj.d
+build CMakeFiles/global_variables_2.dir/lecture4/global_variables_2.cpp.obj: CXX_COMPILER__global_variables_2_Debug C$:/Users/sonja/Projects/C++Course/lecture4/global_variables_2.cpp || cmake_object_order_depends_target_global_variables_2
+  DEP_FILE = CMakeFiles\global_variables_2.dir\lecture4\global_variables_2.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\week4_3.dir
-  OBJECT_FILE_DIR = CMakeFiles\week4_3.dir
-
-build CMakeFiles/week4_3.dir/lecture4/week4_3.cpp.obj: CXX_COMPILER__week4_3_Debug C$:/Users/sonja/Projects/C++Course/lecture4/week4_3.cpp || cmake_object_order_depends_target_week4_3
-  DEP_FILE = CMakeFiles\week4_3.dir\lecture4\week4_3.cpp.obj.d
-  FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\week4_3.dir
-  OBJECT_FILE_DIR = CMakeFiles\week4_3.dir\lecture4
+  OBJECT_DIR = CMakeFiles\global_variables_2.dir
+  OBJECT_FILE_DIR = CMakeFiles\global_variables_2.dir\lecture4
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target week4_3
+# Link build statements for EXECUTABLE target global_variables_2
 
 
 #############################################
-# Link the executable week4_3.exe
+# Link the executable global_variables_2.exe
 
-build week4_3.exe: CXX_EXECUTABLE_LINKER__week4_3_Debug CMakeFiles/week4_3.dir/main.cpp.obj CMakeFiles/week4_3.dir/lecture4/week4_3.cpp.obj
+build global_variables_2.exe: CXX_EXECUTABLE_LINKER__global_variables_2_Debug CMakeFiles/global_variables_2.dir/lecture4/global_variables_2.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\week4_3.dir
+  OBJECT_DIR = CMakeFiles\global_variables_2.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = week4_3.exe
-  TARGET_IMPLIB = libweek4_3.dll.a
-  TARGET_PDB = week4_3.exe.dbg
+  TARGET_FILE = global_variables_2.exe
+  TARGET_IMPLIB = libglobal_variables_2.dll.a
+  TARGET_PDB = global_variables_2.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target week5_1
+# Object build statements for EXECUTABLE target string_literal
 
 
 #############################################
-# Order-only phony target for week5_1
+# Order-only phony target for string_literal
 
-build cmake_object_order_depends_target_week5_1: phony || CMakeFiles/week5_1.dir
+build cmake_object_order_depends_target_string_literal: phony || CMakeFiles/string_literal.dir
 
-build CMakeFiles/week5_1.dir/main.cpp.obj: CXX_COMPILER__week5_1_Debug C$:/Users/sonja/Projects/C++Course/main.cpp || cmake_object_order_depends_target_week5_1
-  DEP_FILE = CMakeFiles\week5_1.dir\main.cpp.obj.d
+build CMakeFiles/string_literal.dir/lecture5/string_literal.cpp.obj: CXX_COMPILER__string_literal_Debug C$:/Users/sonja/Projects/C++Course/lecture5/string_literal.cpp || cmake_object_order_depends_target_string_literal
+  DEP_FILE = CMakeFiles\string_literal.dir\lecture5\string_literal.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\week5_1.dir
-  OBJECT_FILE_DIR = CMakeFiles\week5_1.dir
-
-build CMakeFiles/week5_1.dir/lecture5/week5_1.cpp.obj: CXX_COMPILER__week5_1_Debug C$:/Users/sonja/Projects/C++Course/lecture5/week5_1.cpp || cmake_object_order_depends_target_week5_1
-  DEP_FILE = CMakeFiles\week5_1.dir\lecture5\week5_1.cpp.obj.d
-  FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\week5_1.dir
-  OBJECT_FILE_DIR = CMakeFiles\week5_1.dir\lecture5
+  OBJECT_DIR = CMakeFiles\string_literal.dir
+  OBJECT_FILE_DIR = CMakeFiles\string_literal.dir\lecture5
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target week5_1
+# Link build statements for EXECUTABLE target string_literal
 
 
 #############################################
-# Link the executable week5_1.exe
+# Link the executable string_literal.exe
 
-build week5_1.exe: CXX_EXECUTABLE_LINKER__week5_1_Debug CMakeFiles/week5_1.dir/main.cpp.obj CMakeFiles/week5_1.dir/lecture5/week5_1.cpp.obj
+build string_literal.exe: CXX_EXECUTABLE_LINKER__string_literal_Debug CMakeFiles/string_literal.dir/lecture5/string_literal.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\week5_1.dir
+  OBJECT_DIR = CMakeFiles\string_literal.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = week5_1.exe
-  TARGET_IMPLIB = libweek5_1.dll.a
-  TARGET_PDB = week5_1.exe.dbg
+  TARGET_FILE = string_literal.exe
+  TARGET_IMPLIB = libstring_literal.dll.a
+  TARGET_PDB = string_literal.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target week5_2
+# Object build statements for EXECUTABLE target homework2_Ex1
 
 
 #############################################
-# Order-only phony target for week5_2
+# Order-only phony target for homework2_Ex1
 
-build cmake_object_order_depends_target_week5_2: phony || CMakeFiles/week5_2.dir
+build cmake_object_order_depends_target_homework2_Ex1: phony || CMakeFiles/homework2_Ex1.dir
 
-build CMakeFiles/week5_2.dir/main.cpp.obj: CXX_COMPILER__week5_2_Debug C$:/Users/sonja/Projects/C++Course/main.cpp || cmake_object_order_depends_target_week5_2
-  DEP_FILE = CMakeFiles\week5_2.dir\main.cpp.obj.d
+build CMakeFiles/homework2_Ex1.dir/lecture5/homework2_Ex1.cpp.obj: CXX_COMPILER__homework2_Ex1_Debug C$:/Users/sonja/Projects/C++Course/lecture5/homework2_Ex1.cpp || cmake_object_order_depends_target_homework2_Ex1
+  DEP_FILE = CMakeFiles\homework2_Ex1.dir\lecture5\homework2_Ex1.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\week5_2.dir
-  OBJECT_FILE_DIR = CMakeFiles\week5_2.dir
-
-build CMakeFiles/week5_2.dir/lecture5/week5_2_HW2.cpp.obj: CXX_COMPILER__week5_2_Debug C$:/Users/sonja/Projects/C++Course/lecture5/week5_2_HW2.cpp || cmake_object_order_depends_target_week5_2
-  DEP_FILE = CMakeFiles\week5_2.dir\lecture5\week5_2_HW2.cpp.obj.d
-  FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\week5_2.dir
-  OBJECT_FILE_DIR = CMakeFiles\week5_2.dir\lecture5
+  OBJECT_DIR = CMakeFiles\homework2_Ex1.dir
+  OBJECT_FILE_DIR = CMakeFiles\homework2_Ex1.dir\lecture5
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target week5_2
+# Link build statements for EXECUTABLE target homework2_Ex1
 
 
 #############################################
-# Link the executable week5_2.exe
+# Link the executable homework2_Ex1.exe
 
-build week5_2.exe: CXX_EXECUTABLE_LINKER__week5_2_Debug CMakeFiles/week5_2.dir/main.cpp.obj CMakeFiles/week5_2.dir/lecture5/week5_2_HW2.cpp.obj
+build homework2_Ex1.exe: CXX_EXECUTABLE_LINKER__homework2_Ex1_Debug CMakeFiles/homework2_Ex1.dir/lecture5/homework2_Ex1.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\week5_2.dir
+  OBJECT_DIR = CMakeFiles\homework2_Ex1.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = week5_2.exe
-  TARGET_IMPLIB = libweek5_2.dll.a
-  TARGET_PDB = week5_2.exe.dbg
+  TARGET_FILE = homework2_Ex1.exe
+  TARGET_IMPLIB = libhomework2_Ex1.dll.a
+  TARGET_PDB = homework2_Ex1.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target week5_3
+# Object build statements for EXECUTABLE target homework2_Ex2
 
 
 #############################################
-# Order-only phony target for week5_3
+# Order-only phony target for homework2_Ex2
 
-build cmake_object_order_depends_target_week5_3: phony || CMakeFiles/week5_3.dir
+build cmake_object_order_depends_target_homework2_Ex2: phony || CMakeFiles/homework2_Ex2.dir
 
-build CMakeFiles/week5_3.dir/main.cpp.obj: CXX_COMPILER__week5_3_Debug C$:/Users/sonja/Projects/C++Course/main.cpp || cmake_object_order_depends_target_week5_3
-  DEP_FILE = CMakeFiles\week5_3.dir\main.cpp.obj.d
+build CMakeFiles/homework2_Ex2.dir/lecture5/homework2_Ex2.cpp.obj: CXX_COMPILER__homework2_Ex2_Debug C$:/Users/sonja/Projects/C++Course/lecture5/homework2_Ex2.cpp || cmake_object_order_depends_target_homework2_Ex2
+  DEP_FILE = CMakeFiles\homework2_Ex2.dir\lecture5\homework2_Ex2.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\week5_3.dir
-  OBJECT_FILE_DIR = CMakeFiles\week5_3.dir
-
-build CMakeFiles/week5_3.dir/lecture5/week5_3_HW2.cpp.obj: CXX_COMPILER__week5_3_Debug C$:/Users/sonja/Projects/C++Course/lecture5/week5_3_HW2.cpp || cmake_object_order_depends_target_week5_3
-  DEP_FILE = CMakeFiles\week5_3.dir\lecture5\week5_3_HW2.cpp.obj.d
-  FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\week5_3.dir
-  OBJECT_FILE_DIR = CMakeFiles\week5_3.dir\lecture5
+  OBJECT_DIR = CMakeFiles\homework2_Ex2.dir
+  OBJECT_FILE_DIR = CMakeFiles\homework2_Ex2.dir\lecture5
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target week5_3
+# Link build statements for EXECUTABLE target homework2_Ex2
 
 
 #############################################
-# Link the executable week5_3.exe
+# Link the executable homework2_Ex2.exe
 
-build week5_3.exe: CXX_EXECUTABLE_LINKER__week5_3_Debug CMakeFiles/week5_3.dir/main.cpp.obj CMakeFiles/week5_3.dir/lecture5/week5_3_HW2.cpp.obj
+build homework2_Ex2.exe: CXX_EXECUTABLE_LINKER__homework2_Ex2_Debug CMakeFiles/homework2_Ex2.dir/lecture5/homework2_Ex2.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\week5_3.dir
+  OBJECT_DIR = CMakeFiles\homework2_Ex2.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = week5_3.exe
-  TARGET_IMPLIB = libweek5_3.dll.a
-  TARGET_PDB = week5_3.exe.dbg
+  TARGET_FILE = homework2_Ex2.exe
+  TARGET_IMPLIB = libhomework2_Ex2.dll.a
+  TARGET_PDB = homework2_Ex2.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target week5_4
+# Object build statements for EXECUTABLE target homework2_Ex3
 
 
 #############################################
-# Order-only phony target for week5_4
+# Order-only phony target for homework2_Ex3
 
-build cmake_object_order_depends_target_week5_4: phony || CMakeFiles/week5_4.dir
+build cmake_object_order_depends_target_homework2_Ex3: phony || CMakeFiles/homework2_Ex3.dir
 
-build CMakeFiles/week5_4.dir/main.cpp.obj: CXX_COMPILER__week5_4_Debug C$:/Users/sonja/Projects/C++Course/main.cpp || cmake_object_order_depends_target_week5_4
-  DEP_FILE = CMakeFiles\week5_4.dir\main.cpp.obj.d
+build CMakeFiles/homework2_Ex3.dir/lecture5/homework2_Ex3.cpp.obj: CXX_COMPILER__homework2_Ex3_Debug C$:/Users/sonja/Projects/C++Course/lecture5/homework2_Ex3.cpp || cmake_object_order_depends_target_homework2_Ex3
+  DEP_FILE = CMakeFiles\homework2_Ex3.dir\lecture5\homework2_Ex3.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\week5_4.dir
-  OBJECT_FILE_DIR = CMakeFiles\week5_4.dir
-
-build CMakeFiles/week5_4.dir/lecture5/week5_4_HW2.cpp.obj: CXX_COMPILER__week5_4_Debug C$:/Users/sonja/Projects/C++Course/lecture5/week5_4_HW2.cpp || cmake_object_order_depends_target_week5_4
-  DEP_FILE = CMakeFiles\week5_4.dir\lecture5\week5_4_HW2.cpp.obj.d
-  FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\week5_4.dir
-  OBJECT_FILE_DIR = CMakeFiles\week5_4.dir\lecture5
+  OBJECT_DIR = CMakeFiles\homework2_Ex3.dir
+  OBJECT_FILE_DIR = CMakeFiles\homework2_Ex3.dir\lecture5
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target week5_4
+# Link build statements for EXECUTABLE target homework2_Ex3
 
 
 #############################################
-# Link the executable week5_4.exe
+# Link the executable homework2_Ex3.exe
 
-build week5_4.exe: CXX_EXECUTABLE_LINKER__week5_4_Debug CMakeFiles/week5_4.dir/main.cpp.obj CMakeFiles/week5_4.dir/lecture5/week5_4_HW2.cpp.obj
+build homework2_Ex3.exe: CXX_EXECUTABLE_LINKER__homework2_Ex3_Debug CMakeFiles/homework2_Ex3.dir/lecture5/homework2_Ex3.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\week5_4.dir
+  OBJECT_DIR = CMakeFiles\homework2_Ex3.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = week5_4.exe
-  TARGET_IMPLIB = libweek5_4.dll.a
-  TARGET_PDB = week5_4.exe.dbg
+  TARGET_FILE = homework2_Ex3.exe
+  TARGET_IMPLIB = libhomework2_Ex3.dll.a
+  TARGET_PDB = homework2_Ex3.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target week6_1
+# Object build statements for EXECUTABLE target swap
 
 
 #############################################
-# Order-only phony target for week6_1
+# Order-only phony target for swap
 
-build cmake_object_order_depends_target_week6_1: phony || CMakeFiles/week6_1.dir
+build cmake_object_order_depends_target_swap: phony || CMakeFiles/swap.dir
 
-build CMakeFiles/week6_1.dir/main.cpp.obj: CXX_COMPILER__week6_1_Debug C$:/Users/sonja/Projects/C++Course/main.cpp || cmake_object_order_depends_target_week6_1
-  DEP_FILE = CMakeFiles\week6_1.dir\main.cpp.obj.d
+build CMakeFiles/swap.dir/lecture6/swap.cpp.obj: CXX_COMPILER__swap_Debug C$:/Users/sonja/Projects/C++Course/lecture6/swap.cpp || cmake_object_order_depends_target_swap
+  DEP_FILE = CMakeFiles\swap.dir\lecture6\swap.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\week6_1.dir
-  OBJECT_FILE_DIR = CMakeFiles\week6_1.dir
-
-build CMakeFiles/week6_1.dir/lecture6/week6_1.cpp.obj: CXX_COMPILER__week6_1_Debug C$:/Users/sonja/Projects/C++Course/lecture6/week6_1.cpp || cmake_object_order_depends_target_week6_1
-  DEP_FILE = CMakeFiles\week6_1.dir\lecture6\week6_1.cpp.obj.d
-  FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\week6_1.dir
-  OBJECT_FILE_DIR = CMakeFiles\week6_1.dir\lecture6
+  OBJECT_DIR = CMakeFiles\swap.dir
+  OBJECT_FILE_DIR = CMakeFiles\swap.dir\lecture6
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target week6_1
+# Link build statements for EXECUTABLE target swap
 
 
 #############################################
-# Link the executable week6_1.exe
+# Link the executable swap.exe
 
-build week6_1.exe: CXX_EXECUTABLE_LINKER__week6_1_Debug CMakeFiles/week6_1.dir/main.cpp.obj CMakeFiles/week6_1.dir/lecture6/week6_1.cpp.obj
+build swap.exe: CXX_EXECUTABLE_LINKER__swap_Debug CMakeFiles/swap.dir/lecture6/swap.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\week6_1.dir
+  OBJECT_DIR = CMakeFiles\swap.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = week6_1.exe
-  TARGET_IMPLIB = libweek6_1.dll.a
-  TARGET_PDB = week6_1.exe.dbg
+  TARGET_FILE = swap.exe
+  TARGET_IMPLIB = libswap.dll.a
+  TARGET_PDB = swap.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target week6_2
+# Object build statements for EXECUTABLE target pointers_arrays
 
 
 #############################################
-# Order-only phony target for week6_2
+# Order-only phony target for pointers_arrays
 
-build cmake_object_order_depends_target_week6_2: phony || CMakeFiles/week6_2.dir
+build cmake_object_order_depends_target_pointers_arrays: phony || CMakeFiles/pointers_arrays.dir
 
-build CMakeFiles/week6_2.dir/main.cpp.obj: CXX_COMPILER__week6_2_Debug C$:/Users/sonja/Projects/C++Course/main.cpp || cmake_object_order_depends_target_week6_2
-  DEP_FILE = CMakeFiles\week6_2.dir\main.cpp.obj.d
+build CMakeFiles/pointers_arrays.dir/lecture6/pointers_arrays.cpp.obj: CXX_COMPILER__pointers_arrays_Debug C$:/Users/sonja/Projects/C++Course/lecture6/pointers_arrays.cpp || cmake_object_order_depends_target_pointers_arrays
+  DEP_FILE = CMakeFiles\pointers_arrays.dir\lecture6\pointers_arrays.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\week6_2.dir
-  OBJECT_FILE_DIR = CMakeFiles\week6_2.dir
-
-build CMakeFiles/week6_2.dir/lecture6/week6_2.cpp.obj: CXX_COMPILER__week6_2_Debug C$:/Users/sonja/Projects/C++Course/lecture6/week6_2.cpp || cmake_object_order_depends_target_week6_2
-  DEP_FILE = CMakeFiles\week6_2.dir\lecture6\week6_2.cpp.obj.d
-  FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\week6_2.dir
-  OBJECT_FILE_DIR = CMakeFiles\week6_2.dir\lecture6
+  OBJECT_DIR = CMakeFiles\pointers_arrays.dir
+  OBJECT_FILE_DIR = CMakeFiles\pointers_arrays.dir\lecture6
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target week6_2
+# Link build statements for EXECUTABLE target pointers_arrays
 
 
 #############################################
-# Link the executable week6_2.exe
+# Link the executable pointers_arrays.exe
 
-build week6_2.exe: CXX_EXECUTABLE_LINKER__week6_2_Debug CMakeFiles/week6_2.dir/main.cpp.obj CMakeFiles/week6_2.dir/lecture6/week6_2.cpp.obj
+build pointers_arrays.exe: CXX_EXECUTABLE_LINKER__pointers_arrays_Debug CMakeFiles/pointers_arrays.dir/lecture6/pointers_arrays.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\week6_2.dir
+  OBJECT_DIR = CMakeFiles\pointers_arrays.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = week6_2.exe
-  TARGET_IMPLIB = libweek6_2.dll.a
-  TARGET_PDB = week6_2.exe.dbg
+  TARGET_FILE = pointers_arrays.exe
+  TARGET_IMPLIB = libpointers_arrays.dll.a
+  TARGET_PDB = pointers_arrays.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target week6_3
+# Object build statements for EXECUTABLE target homework3_Ex1
 
 
 #############################################
-# Order-only phony target for week6_3
+# Order-only phony target for homework3_Ex1
 
-build cmake_object_order_depends_target_week6_3: phony || CMakeFiles/week6_3.dir
+build cmake_object_order_depends_target_homework3_Ex1: phony || CMakeFiles/homework3_Ex1.dir
 
-build CMakeFiles/week6_3.dir/main.cpp.obj: CXX_COMPILER__week6_3_Debug C$:/Users/sonja/Projects/C++Course/main.cpp || cmake_object_order_depends_target_week6_3
-  DEP_FILE = CMakeFiles\week6_3.dir\main.cpp.obj.d
+build CMakeFiles/homework3_Ex1.dir/lecture6/homework3_Ex1.cpp.obj: CXX_COMPILER__homework3_Ex1_Debug C$:/Users/sonja/Projects/C++Course/lecture6/homework3_Ex1.cpp || cmake_object_order_depends_target_homework3_Ex1
+  DEP_FILE = CMakeFiles\homework3_Ex1.dir\lecture6\homework3_Ex1.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\week6_3.dir
-  OBJECT_FILE_DIR = CMakeFiles\week6_3.dir
-
-build CMakeFiles/week6_3.dir/lecture6/week6_3.cpp.obj: CXX_COMPILER__week6_3_Debug C$:/Users/sonja/Projects/C++Course/lecture6/week6_3.cpp || cmake_object_order_depends_target_week6_3
-  DEP_FILE = CMakeFiles\week6_3.dir\lecture6\week6_3.cpp.obj.d
-  FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\week6_3.dir
-  OBJECT_FILE_DIR = CMakeFiles\week6_3.dir\lecture6
+  OBJECT_DIR = CMakeFiles\homework3_Ex1.dir
+  OBJECT_FILE_DIR = CMakeFiles\homework3_Ex1.dir\lecture6
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target week6_3
+# Link build statements for EXECUTABLE target homework3_Ex1
 
 
 #############################################
-# Link the executable week6_3.exe
+# Link the executable homework3_Ex1.exe
 
-build week6_3.exe: CXX_EXECUTABLE_LINKER__week6_3_Debug CMakeFiles/week6_3.dir/main.cpp.obj CMakeFiles/week6_3.dir/lecture6/week6_3.cpp.obj
+build homework3_Ex1.exe: CXX_EXECUTABLE_LINKER__homework3_Ex1_Debug CMakeFiles/homework3_Ex1.dir/lecture6/homework3_Ex1.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\week6_3.dir
+  OBJECT_DIR = CMakeFiles\homework3_Ex1.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = week6_3.exe
-  TARGET_IMPLIB = libweek6_3.dll.a
-  TARGET_PDB = week6_3.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target week7_1
-
-
-#############################################
-# Order-only phony target for week7_1
-
-build cmake_object_order_depends_target_week7_1: phony || CMakeFiles/week7_1.dir
-
-build CMakeFiles/week7_1.dir/main.cpp.obj: CXX_COMPILER__week7_1_Debug C$:/Users/sonja/Projects/C++Course/main.cpp || cmake_object_order_depends_target_week7_1
-  DEP_FILE = CMakeFiles\week7_1.dir\main.cpp.obj.d
-  FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\week7_1.dir
-  OBJECT_FILE_DIR = CMakeFiles\week7_1.dir
-
-build CMakeFiles/week7_1.dir/lecture7/week7_1.cpp.obj: CXX_COMPILER__week7_1_Debug C$:/Users/sonja/Projects/C++Course/lecture7/week7_1.cpp || cmake_object_order_depends_target_week7_1
-  DEP_FILE = CMakeFiles\week7_1.dir\lecture7\week7_1.cpp.obj.d
-  FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\week7_1.dir
-  OBJECT_FILE_DIR = CMakeFiles\week7_1.dir\lecture7
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target week7_1
-
-
-#############################################
-# Link the executable week7_1.exe
-
-build week7_1.exe: CXX_EXECUTABLE_LINKER__week7_1_Debug CMakeFiles/week7_1.dir/main.cpp.obj CMakeFiles/week7_1.dir/lecture7/week7_1.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\week7_1.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = week7_1.exe
-  TARGET_IMPLIB = libweek7_1.dll.a
-  TARGET_PDB = week7_1.exe.dbg
+  TARGET_FILE = homework3_Ex1.exe
+  TARGET_IMPLIB = libhomework3_Ex1.dll.a
+  TARGET_PDB = homework3_Ex1.exe.dbg
 
 
 #############################################
@@ -723,39 +594,37 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build week1_Fahrenheit: phony week1_Fahrenheit.exe
+build fahrenheitToCelcius: phony fahrenheitToCelcius.exe
+
+build global_variables_1: phony global_variables_1.exe
+
+build global_variables_2: phony global_variables_2.exe
+
+build homework1_Ex1: phony homework1_Ex1.exe
+
+build homework1_Ex2: phony homework1_Ex2.exe
+
+build homework1_Ex3: phony homework1_Ex3.exe
+
+build homework1_Ex4: phony homework1_Ex4.exe
+
+build homework2_Ex1: phony homework2_Ex1.exe
+
+build homework2_Ex2: phony homework2_Ex2.exe
+
+build homework2_Ex3: phony homework2_Ex3.exe
+
+build homework3_Ex1: phony homework3_Ex1.exe
+
+build pointers_arrays: phony pointers_arrays.exe
+
+build string_literal: phony string_literal.exe
+
+build swap: phony swap.exe
+
+build tower_of_hanoi: phony tower_of_hanoi.exe
 
 build week2: phony week2.exe
-
-build week3_1: phony week3_1.exe
-
-build week3_2: phony week3_2.exe
-
-build week3_3: phony week3_3.exe
-
-build week3_4: phony week3_4.exe
-
-build week4_1: phony week4_1.exe
-
-build week4_2: phony week4_2.exe
-
-build week4_3: phony week4_3.exe
-
-build week5_1: phony week5_1.exe
-
-build week5_2: phony week5_2.exe
-
-build week5_3: phony week5_3.exe
-
-build week5_4: phony week5_4.exe
-
-build week6_1: phony week6_1.exe
-
-build week6_2: phony week6_2.exe
-
-build week6_3: phony week6_3.exe
-
-build week7_1: phony week7_1.exe
 
 # =============================================================================
 # Folder targets.
@@ -765,7 +634,7 @@ build week7_1: phony week7_1.exe
 #############################################
 # Folder: C:/Users/sonja/Projects/C++Course/cmake-build-debug
 
-build all: phony week1_Fahrenheit.exe week2.exe week3_1.exe week3_2.exe week3_3.exe week3_4.exe week4_1.exe week4_2.exe week4_3.exe week5_1.exe week5_2.exe week5_3.exe week5_4.exe week6_1.exe week6_2.exe week6_3.exe week7_1.exe
+build all: phony fahrenheitToCelcius.exe week2.exe homework1_Ex1.exe homework1_Ex2.exe homework1_Ex3.exe homework1_Ex4.exe tower_of_hanoi.exe global_variables_1.exe global_variables_2.exe string_literal.exe homework2_Ex1.exe homework2_Ex2.exe homework2_Ex3.exe swap.exe pointers_arrays.exe homework3_Ex1.exe
 
 # =============================================================================
 # Built-in targets

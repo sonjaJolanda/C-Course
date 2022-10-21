@@ -1,49 +1,46 @@
 cmake_minimum_required(VERSION 3.23)
 
-project(week3_1)
-project(week3_2)
-project(week3_3)
-project(week3_4)
+project(fahrenheitToCelcius)
+project(week2)
 
-project(week4_1)
-project(week4_2)
-project(week4_3)
+project(homework1_Ex1)
+project(homework1_Ex2)
+project(homework1_Ex3)
+project(homework1_Ex4)
 
-project(week5_1)
-project(week5_2)
-project(week5_3)
-project(week5_4)
+project(tower_of_hanoi)
+project(global_variables_1)
+project(global_variables_2)
 
-project(week6_1)
-project(week6_2)
-project(week6_3)
+project(string_literal)
+project(homework2_Ex1)
+project(homework2_Ex2)
+project(homework2_Ex3)
 
-project(week7_1)
+project(swap)
+project(pointers_arrays)
+project(homework3_Ex1)
 
 set(CMAKE_CXX_STANDARD 14)
 
 
-add_executable(week1_Fahrenheit lecture1/fahrenheitToCelcius.cpp)
+add_executable(fahrenheitToCelcius lecture1/fahrenheitToCelcius.cpp)
+add_executable(week2 lecture2/week2.cpp)
 
-add_executable(week2 main.cpp lecture2/week2.cpp)
+add_executable(homework1_Ex1 lecture4/homework1_Ex1.cpp)
+add_executable(homework1_Ex2 lecture4/homework1_Ex2.cpp)
+add_executable(homework1_Ex3 lecture4/homework1_Ex3.cpp)
+add_executable(homework1_Ex4 lecture4/homework1_Ex4.cpp)
 
-add_executable(week3_1 main.cpp lecture4/homework1_Ex1.cpp)
-add_executable(week3_2 main.cpp lecture4/homework1_Ex2.cpp)
-add_executable(week3_3 main.cpp lecture4/homework1_Ex3.cpp)
-add_executable(week3_4 main.cpp lecture4/homework1_Ex4.cpp)
+add_executable(tower_of_hanoi lecture4/tower_of_hanoi.cpp)
+add_executable(global_variables_1 lecture4/global_variables_1.cpp)
+add_executable(global_variables_2 lecture4/global_variables_2.cpp)
 
-add_executable(week4_1 main.cpp lecture4/tower_of_hanoi.cpp)
-add_executable(week4_2 main.cpp lecture4/global_variables_1.cpp)
-add_executable(week4_3 main.cpp lecture4/global_variables_2.cpp)
+add_executable(string_literal lecture5/string_literal.cpp)
+add_executable(homework2_Ex1 lecture5/homework2_Ex1.cpp)
+add_executable(homework2_Ex2 lecture5/homework2_Ex2.cpp)
+add_executable(homework2_Ex3 lecture5/homework2_Ex3.cpp)
 
-add_executable(week5_1 main.cpp lecture5/string_literal.cpp)
-add_executable(week5_2 main.cpp lecture5/homework2_Ex1.cpp)
-add_executable(week5_3 main.cpp lecture5/homework2_Ex2.cpp)
-add_executable(week5_4 main.cpp lecture5/homework2_Ex3.cpp)
-
-add_executable(week6_1 main.cpp lecture6/swap.cpp)
-add_executable(week6_2 main.cpp lecture6/pointers_arrays.cpp)
-add_executable(week6_3 main.cpp lecture6/homework3_Ex1.cpp)
-
-
-add_executable(week7_1 main.cpp)
+add_executable(swap lecture6/swap.cpp)
+add_executable(pointers_arrays lecture6/pointers_arrays.cpp)
+add_executable(homework3_Ex1 lecture6/homework3_Ex1.cpp)
