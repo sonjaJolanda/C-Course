@@ -173,39 +173,6 @@ build global_variables_2.exe: CXX_EXECUTABLE_LINKER__global_variables_2_Debug CM
   TARGET_PDB = global_variables_2.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target string_literal
-
-
-#############################################
-# Order-only phony target for string_literal
-
-build cmake_object_order_depends_target_string_literal: phony || CMakeFiles/string_literal.dir
-
-build CMakeFiles/string_literal.dir/lecture5/string_literal.cpp.obj: CXX_COMPILER__string_literal_Debug C$:/Users/sonja/Projects/C++Course/lecture5/string_literal.cpp || cmake_object_order_depends_target_string_literal
-  DEP_FILE = CMakeFiles\string_literal.dir\lecture5\string_literal.cpp.obj.d
-  FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\string_literal.dir
-  OBJECT_FILE_DIR = CMakeFiles\string_literal.dir\lecture5
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target string_literal
-
-
-#############################################
-# Link the executable string_literal.exe
-
-build string_literal.exe: CXX_EXECUTABLE_LINKER__string_literal_Debug CMakeFiles/string_literal.dir/lecture5/string_literal.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\string_literal.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = string_literal.exe
-  TARGET_IMPLIB = libstring_literal.dll.a
-  TARGET_PDB = string_literal.exe.dbg
-
-# =============================================================================
 # Object build statements for EXECUTABLE target homework2_Ex1
 
 
@@ -214,8 +181,8 @@ build string_literal.exe: CXX_EXECUTABLE_LINKER__string_literal_Debug CMakeFiles
 
 build cmake_object_order_depends_target_homework2_Ex1: phony || CMakeFiles/homework2_Ex1.dir
 
-build CMakeFiles/homework2_Ex1.dir/lecture5/homework2_Ex1.cpp.obj: CXX_COMPILER__homework2_Ex1_Debug C$:/Users/sonja/Projects/C++Course/lecture5/homework2_Ex1.cpp || cmake_object_order_depends_target_homework2_Ex1
-  DEP_FILE = CMakeFiles\homework2_Ex1.dir\lecture5\homework2_Ex1.cpp.obj.d
+build CMakeFiles/homework2_Ex1.dir/lecture5/binomial_coefficient.cpp.obj: CXX_COMPILER__homework2_Ex1_Debug C$:/Users/sonja/Projects/C++Course/lecture5/binomial_coefficient.cpp || cmake_object_order_depends_target_homework2_Ex1
+  DEP_FILE = CMakeFiles\homework2_Ex1.dir\lecture5\binomial_coefficient.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\homework2_Ex1.dir
   OBJECT_FILE_DIR = CMakeFiles\homework2_Ex1.dir\lecture5
@@ -228,7 +195,7 @@ build CMakeFiles/homework2_Ex1.dir/lecture5/homework2_Ex1.cpp.obj: CXX_COMPILER_
 #############################################
 # Link the executable homework2_Ex1.exe
 
-build homework2_Ex1.exe: CXX_EXECUTABLE_LINKER__homework2_Ex1_Debug CMakeFiles/homework2_Ex1.dir/lecture5/homework2_Ex1.cpp.obj
+build homework2_Ex1.exe: CXX_EXECUTABLE_LINKER__homework2_Ex1_Debug CMakeFiles/homework2_Ex1.dir/lecture5/binomial_coefficient.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\homework2_Ex1.dir
@@ -247,8 +214,8 @@ build homework2_Ex1.exe: CXX_EXECUTABLE_LINKER__homework2_Ex1_Debug CMakeFiles/h
 
 build cmake_object_order_depends_target_homework2_Ex2: phony || CMakeFiles/homework2_Ex2.dir
 
-build CMakeFiles/homework2_Ex2.dir/lecture5/homework2_Ex2.cpp.obj: CXX_COMPILER__homework2_Ex2_Debug C$:/Users/sonja/Projects/C++Course/lecture5/homework2_Ex2.cpp || cmake_object_order_depends_target_homework2_Ex2
-  DEP_FILE = CMakeFiles\homework2_Ex2.dir\lecture5\homework2_Ex2.cpp.obj.d
+build CMakeFiles/homework2_Ex2.dir/lecture5/permut_numbers.cpp.obj: CXX_COMPILER__homework2_Ex2_Debug C$:/Users/sonja/Projects/C++Course/lecture5/permut_numbers.cpp || cmake_object_order_depends_target_homework2_Ex2
+  DEP_FILE = CMakeFiles\homework2_Ex2.dir\lecture5\permut_numbers.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\homework2_Ex2.dir
   OBJECT_FILE_DIR = CMakeFiles\homework2_Ex2.dir\lecture5
@@ -261,7 +228,7 @@ build CMakeFiles/homework2_Ex2.dir/lecture5/homework2_Ex2.cpp.obj: CXX_COMPILER_
 #############################################
 # Link the executable homework2_Ex2.exe
 
-build homework2_Ex2.exe: CXX_EXECUTABLE_LINKER__homework2_Ex2_Debug CMakeFiles/homework2_Ex2.dir/lecture5/homework2_Ex2.cpp.obj
+build homework2_Ex2.exe: CXX_EXECUTABLE_LINKER__homework2_Ex2_Debug CMakeFiles/homework2_Ex2.dir/lecture5/permut_numbers.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\homework2_Ex2.dir
@@ -280,8 +247,8 @@ build homework2_Ex2.exe: CXX_EXECUTABLE_LINKER__homework2_Ex2_Debug CMakeFiles/h
 
 build cmake_object_order_depends_target_homework2_Ex3: phony || CMakeFiles/homework2_Ex3.dir
 
-build CMakeFiles/homework2_Ex3.dir/lecture5/homework2_Ex3.cpp.obj: CXX_COMPILER__homework2_Ex3_Debug C$:/Users/sonja/Projects/C++Course/lecture5/homework2_Ex3.cpp || cmake_object_order_depends_target_homework2_Ex3
-  DEP_FILE = CMakeFiles\homework2_Ex3.dir\lecture5\homework2_Ex3.cpp.obj.d
+build CMakeFiles/homework2_Ex3.dir/lecture5/sum_down.cpp.obj: CXX_COMPILER__homework2_Ex3_Debug C$:/Users/sonja/Projects/C++Course/lecture5/sum_down.cpp || cmake_object_order_depends_target_homework2_Ex3
+  DEP_FILE = CMakeFiles\homework2_Ex3.dir\lecture5\sum_down.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\homework2_Ex3.dir
   OBJECT_FILE_DIR = CMakeFiles\homework2_Ex3.dir\lecture5
@@ -294,7 +261,7 @@ build CMakeFiles/homework2_Ex3.dir/lecture5/homework2_Ex3.cpp.obj: CXX_COMPILER_
 #############################################
 # Link the executable homework2_Ex3.exe
 
-build homework2_Ex3.exe: CXX_EXECUTABLE_LINKER__homework2_Ex3_Debug CMakeFiles/homework2_Ex3.dir/lecture5/homework2_Ex3.cpp.obj
+build homework2_Ex3.exe: CXX_EXECUTABLE_LINKER__homework2_Ex3_Debug CMakeFiles/homework2_Ex3.dir/lecture5/sum_down.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\homework2_Ex3.dir
@@ -478,8 +445,6 @@ build homework3_Ex1: phony homework3_Ex1.exe
 
 build pointers_arrays: phony pointers_arrays.exe
 
-build string_literal: phony string_literal.exe
-
 build swap: phony swap.exe
 
 build tower_of_hanoi: phony tower_of_hanoi.exe
@@ -494,7 +459,7 @@ build week2: phony week2.exe
 #############################################
 # Folder: C:/Users/sonja/Projects/C++Course/cmake-build-debug
 
-build all: phony week2.exe tower_of_hanoi.exe global_variables_1.exe global_variables_2.exe string_literal.exe homework2_Ex1.exe homework2_Ex2.exe homework2_Ex3.exe swap.exe pointers_arrays.exe homework3_Ex1.exe exercise.exe
+build all: phony week2.exe tower_of_hanoi.exe global_variables_1.exe global_variables_2.exe homework2_Ex1.exe homework2_Ex2.exe homework2_Ex3.exe swap.exe pointers_arrays.exe homework3_Ex1.exe exercise.exe
 
 # =============================================================================
 # Built-in targets
