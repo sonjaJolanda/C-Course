@@ -41,39 +41,6 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/sonja/Projects/C++Course/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target fahrenheitToCelcius
-
-
-#############################################
-# Order-only phony target for fahrenheitToCelcius
-
-build cmake_object_order_depends_target_fahrenheitToCelcius: phony || CMakeFiles/fahrenheitToCelcius.dir
-
-build CMakeFiles/fahrenheitToCelcius.dir/lecture1/fahrenheitToCelcius.cpp.obj: CXX_COMPILER__fahrenheitToCelcius_Debug C$:/Users/sonja/Projects/C++Course/lecture1/fahrenheitToCelcius.cpp || cmake_object_order_depends_target_fahrenheitToCelcius
-  DEP_FILE = CMakeFiles\fahrenheitToCelcius.dir\lecture1\fahrenheitToCelcius.cpp.obj.d
-  FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\fahrenheitToCelcius.dir
-  OBJECT_FILE_DIR = CMakeFiles\fahrenheitToCelcius.dir\lecture1
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target fahrenheitToCelcius
-
-
-#############################################
-# Link the executable fahrenheitToCelcius.exe
-
-build fahrenheitToCelcius.exe: CXX_EXECUTABLE_LINKER__fahrenheitToCelcius_Debug CMakeFiles/fahrenheitToCelcius.dir/lecture1/fahrenheitToCelcius.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\fahrenheitToCelcius.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = fahrenheitToCelcius.exe
-  TARGET_IMPLIB = libfahrenheitToCelcius.dll.a
-  TARGET_PDB = fahrenheitToCelcius.exe.dbg
-
-# =============================================================================
 # Object build statements for EXECUTABLE target week2
 
 
@@ -82,11 +49,11 @@ build fahrenheitToCelcius.exe: CXX_EXECUTABLE_LINKER__fahrenheitToCelcius_Debug 
 
 build cmake_object_order_depends_target_week2: phony || CMakeFiles/week2.dir
 
-build CMakeFiles/week2.dir/lecture2/week2.cpp.obj: CXX_COMPILER__week2_Debug C$:/Users/sonja/Projects/C++Course/lecture2/week2.cpp || cmake_object_order_depends_target_week2
-  DEP_FILE = CMakeFiles\week2.dir\lecture2\week2.cpp.obj.d
+build CMakeFiles/week2.dir/lecture1+2+3/week1_2_3.cpp.obj: CXX_COMPILER__week2_Debug C$:/Users/sonja/Projects/C++Course/lecture1+2+3/week1_2_3.cpp || cmake_object_order_depends_target_week2
+  DEP_FILE = CMakeFiles\week2.dir\lecture1+2+3\week1_2_3.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\week2.dir
-  OBJECT_FILE_DIR = CMakeFiles\week2.dir\lecture2
+  OBJECT_FILE_DIR = CMakeFiles\week2.dir\lecture1+2+3
 
 
 # =============================================================================
@@ -96,7 +63,7 @@ build CMakeFiles/week2.dir/lecture2/week2.cpp.obj: CXX_COMPILER__week2_Debug C$:
 #############################################
 # Link the executable week2.exe
 
-build week2.exe: CXX_EXECUTABLE_LINKER__week2_Debug CMakeFiles/week2.dir/lecture2/week2.cpp.obj
+build week2.exe: CXX_EXECUTABLE_LINKER__week2_Debug CMakeFiles/week2.dir/lecture1+2+3/week1_2_3.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\week2.dir
@@ -629,8 +596,6 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build exercise: phony exercise.exe
 
-build fahrenheitToCelcius: phony fahrenheitToCelcius.exe
-
 build global_variables_1: phony global_variables_1.exe
 
 build global_variables_2: phony global_variables_2.exe
@@ -669,7 +634,7 @@ build week2: phony week2.exe
 #############################################
 # Folder: C:/Users/sonja/Projects/C++Course/cmake-build-debug
 
-build all: phony fahrenheitToCelcius.exe week2.exe homework1_Ex1.exe homework1_Ex2.exe homework1_Ex3.exe homework1_Ex4.exe tower_of_hanoi.exe global_variables_1.exe global_variables_2.exe string_literal.exe homework2_Ex1.exe homework2_Ex2.exe homework2_Ex3.exe swap.exe pointers_arrays.exe homework3_Ex1.exe exercise.exe
+build all: phony week2.exe homework1_Ex1.exe homework1_Ex2.exe homework1_Ex3.exe homework1_Ex4.exe tower_of_hanoi.exe global_variables_1.exe global_variables_2.exe string_literal.exe homework2_Ex1.exe homework2_Ex2.exe homework2_Ex3.exe swap.exe pointers_arrays.exe homework3_Ex1.exe exercise.exe
 
 # =============================================================================
 # Built-in targets

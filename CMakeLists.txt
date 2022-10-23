@@ -1,6 +1,5 @@
 cmake_minimum_required(VERSION 3.23)
 
-project(fahrenheitToCelcius)
 project(week2)
 
 project(homework1_Ex1)
@@ -25,9 +24,7 @@ project(exercise)
 
 set(CMAKE_CXX_STANDARD 14)
 
-
-add_executable(fahrenheitToCelcius lecture1/fahrenheitToCelcius.cpp)
-add_executable(week2 lecture2/week2.cpp)
+add_executable(week2 lecture1+2+3/week1_2_3.cpp)
 
 add_executable(homework1_Ex1 lecture4/homework1_Ex1.cpp)
 add_executable(homework1_Ex2 lecture4/homework1_Ex2.cpp)
