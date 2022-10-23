@@ -21,6 +21,8 @@ project(swap)
 project(pointers_arrays)
 project(homework3_Ex1)
 
+project(exercise)
+
 set(CMAKE_CXX_STANDARD 14)
 
 
@@ -44,3 +46,5 @@ add_executable(homework2_Ex3 lecture5/homework2_Ex3.cpp)
 add_executable(swap lecture6/swap.cpp)
 add_executable(pointers_arrays lecture6/pointers_arrays.cpp)
 add_executable(homework3_Ex1 lecture6/homework3_Ex1.cpp)
+
+add_executable(exercise programming_exercises/w3resource.cpp)

@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: homework3_Ex1
+# Project: exercise
 # Configurations: Debug
 # =============================================================================
 
@@ -568,6 +568,39 @@ build homework3_Ex1.exe: CXX_EXECUTABLE_LINKER__homework3_Ex1_Debug CMakeFiles/h
   TARGET_IMPLIB = libhomework3_Ex1.dll.a
   TARGET_PDB = homework3_Ex1.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target exercise
+
+
+#############################################
+# Order-only phony target for exercise
+
+build cmake_object_order_depends_target_exercise: phony || CMakeFiles/exercise.dir
+
+build CMakeFiles/exercise.dir/programming_exercises/w3resource.cpp.obj: CXX_COMPILER__exercise_Debug C$:/Users/sonja/Projects/C++Course/programming_exercises/w3resource.cpp || cmake_object_order_depends_target_exercise
+  DEP_FILE = CMakeFiles\exercise.dir\programming_exercises\w3resource.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\exercise.dir
+  OBJECT_FILE_DIR = CMakeFiles\exercise.dir\programming_exercises
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exercise
+
+
+#############################################
+# Link the executable exercise.exe
+
+build exercise.exe: CXX_EXECUTABLE_LINKER__exercise_Debug CMakeFiles/exercise.dir/programming_exercises/w3resource.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\exercise.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = exercise.exe
+  TARGET_IMPLIB = libexercise.dll.a
+  TARGET_PDB = exercise.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -593,6 +626,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Target aliases.
+
+build exercise: phony exercise.exe
 
 build fahrenheitToCelcius: phony fahrenheitToCelcius.exe
 
@@ -634,7 +669,7 @@ build week2: phony week2.exe
 #############################################
 # Folder: C:/Users/sonja/Projects/C++Course/cmake-build-debug
 
-build all: phony fahrenheitToCelcius.exe week2.exe homework1_Ex1.exe homework1_Ex2.exe homework1_Ex3.exe homework1_Ex4.exe tower_of_hanoi.exe global_variables_1.exe global_variables_2.exe string_literal.exe homework2_Ex1.exe homework2_Ex2.exe homework2_Ex3.exe swap.exe pointers_arrays.exe homework3_Ex1.exe
+build all: phony fahrenheitToCelcius.exe week2.exe homework1_Ex1.exe homework1_Ex2.exe homework1_Ex3.exe homework1_Ex4.exe tower_of_hanoi.exe global_variables_1.exe global_variables_2.exe string_literal.exe homework2_Ex1.exe homework2_Ex2.exe homework2_Ex3.exe swap.exe pointers_arrays.exe homework3_Ex1.exe exercise.exe
 
 # =============================================================================
 # Built-in targets
