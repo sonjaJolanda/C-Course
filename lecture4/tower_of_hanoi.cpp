@@ -1,27 +1,20 @@
 
-
 #include <iostream>
 
-// tower of hanoi
-// three towers: source, destination and the one in between (auxillery)
-int tower(int n, char src, char dst, char aux) {
-    if (n <= 1) {
-        std::cout << "Move disk from " << src << " to " << dst << "\n";
+int tower(int number_of_disks, char from, char to, char aux) {
+    if (number_of_disks <= 1) {
+        std::cout << " -> from " << from << " to " << to << std::endl;
         return 1;
     } else {
-        int m1 = tower(n - 1, src, aux, dst);
-        std::cout << "Move disk from " << src << " to " << dst << "\n";
-        int m2 = tower(n - 1, aux, dst, src);
-        return m1 + m2 + 1;
+        int moves = tower(number_of_disks - 1, from, aux, to);
+        moves += tower(1, from, to, aux);
+        moves += tower(number_of_disks - 1, aux, to, from);
+        return moves;
     }
 }
 
 int main() {
-    int moves = tower(5, 'A', 'B', 'C');
-    std::cout << "#moves: " << moves;
-    //for n=3 -> moves will be 7
-    //for n=4 -> moves will be 15
-    //for n=5 -> moves will be 31
-    // 2^n -1 moves -> this is a computational nightmare
+    int moves = tower(5, 'A', 'C', 'B');
+    std::cout << "---> #moves: " << moves << std::endl;
     return 0;
 }

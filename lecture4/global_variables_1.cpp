@@ -4,7 +4,7 @@
 int g; // global variable definition
 
 int fun() {
-    static int j = 7; // global variable with local scope!! ToDo google this too!
+    static int j = 7; // global variable with local scope
     j += 1;
     return j;
 }

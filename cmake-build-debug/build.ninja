@@ -74,138 +74,6 @@ build week2.exe: CXX_EXECUTABLE_LINKER__week2_Debug CMakeFiles/week2.dir/lecture
   TARGET_PDB = week2.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target homework1_Ex1
-
-
-#############################################
-# Order-only phony target for homework1_Ex1
-
-build cmake_object_order_depends_target_homework1_Ex1: phony || CMakeFiles/homework1_Ex1.dir
-
-build CMakeFiles/homework1_Ex1.dir/lecture4/homework1_Ex1.cpp.obj: CXX_COMPILER__homework1_Ex1_Debug C$:/Users/sonja/Projects/C++Course/lecture4/homework1_Ex1.cpp || cmake_object_order_depends_target_homework1_Ex1
-  DEP_FILE = CMakeFiles\homework1_Ex1.dir\lecture4\homework1_Ex1.cpp.obj.d
-  FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\homework1_Ex1.dir
-  OBJECT_FILE_DIR = CMakeFiles\homework1_Ex1.dir\lecture4
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target homework1_Ex1
-
-
-#############################################
-# Link the executable homework1_Ex1.exe
-
-build homework1_Ex1.exe: CXX_EXECUTABLE_LINKER__homework1_Ex1_Debug CMakeFiles/homework1_Ex1.dir/lecture4/homework1_Ex1.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\homework1_Ex1.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = homework1_Ex1.exe
-  TARGET_IMPLIB = libhomework1_Ex1.dll.a
-  TARGET_PDB = homework1_Ex1.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target homework1_Ex2
-
-
-#############################################
-# Order-only phony target for homework1_Ex2
-
-build cmake_object_order_depends_target_homework1_Ex2: phony || CMakeFiles/homework1_Ex2.dir
-
-build CMakeFiles/homework1_Ex2.dir/lecture4/homework1_Ex2.cpp.obj: CXX_COMPILER__homework1_Ex2_Debug C$:/Users/sonja/Projects/C++Course/lecture4/homework1_Ex2.cpp || cmake_object_order_depends_target_homework1_Ex2
-  DEP_FILE = CMakeFiles\homework1_Ex2.dir\lecture4\homework1_Ex2.cpp.obj.d
-  FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\homework1_Ex2.dir
-  OBJECT_FILE_DIR = CMakeFiles\homework1_Ex2.dir\lecture4
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target homework1_Ex2
-
-
-#############################################
-# Link the executable homework1_Ex2.exe
-
-build homework1_Ex2.exe: CXX_EXECUTABLE_LINKER__homework1_Ex2_Debug CMakeFiles/homework1_Ex2.dir/lecture4/homework1_Ex2.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\homework1_Ex2.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = homework1_Ex2.exe
-  TARGET_IMPLIB = libhomework1_Ex2.dll.a
-  TARGET_PDB = homework1_Ex2.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target homework1_Ex3
-
-
-#############################################
-# Order-only phony target for homework1_Ex3
-
-build cmake_object_order_depends_target_homework1_Ex3: phony || CMakeFiles/homework1_Ex3.dir
-
-build CMakeFiles/homework1_Ex3.dir/lecture4/homework1_Ex3.cpp.obj: CXX_COMPILER__homework1_Ex3_Debug C$:/Users/sonja/Projects/C++Course/lecture4/homework1_Ex3.cpp || cmake_object_order_depends_target_homework1_Ex3
-  DEP_FILE = CMakeFiles\homework1_Ex3.dir\lecture4\homework1_Ex3.cpp.obj.d
-  FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\homework1_Ex3.dir
-  OBJECT_FILE_DIR = CMakeFiles\homework1_Ex3.dir\lecture4
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target homework1_Ex3
-
-
-#############################################
-# Link the executable homework1_Ex3.exe
-
-build homework1_Ex3.exe: CXX_EXECUTABLE_LINKER__homework1_Ex3_Debug CMakeFiles/homework1_Ex3.dir/lecture4/homework1_Ex3.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\homework1_Ex3.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = homework1_Ex3.exe
-  TARGET_IMPLIB = libhomework1_Ex3.dll.a
-  TARGET_PDB = homework1_Ex3.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target homework1_Ex4
-
-
-#############################################
-# Order-only phony target for homework1_Ex4
-
-build cmake_object_order_depends_target_homework1_Ex4: phony || CMakeFiles/homework1_Ex4.dir
-
-build CMakeFiles/homework1_Ex4.dir/lecture4/homework1_Ex4.cpp.obj: CXX_COMPILER__homework1_Ex4_Debug C$:/Users/sonja/Projects/C++Course/lecture4/homework1_Ex4.cpp || cmake_object_order_depends_target_homework1_Ex4
-  DEP_FILE = CMakeFiles\homework1_Ex4.dir\lecture4\homework1_Ex4.cpp.obj.d
-  FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\homework1_Ex4.dir
-  OBJECT_FILE_DIR = CMakeFiles\homework1_Ex4.dir\lecture4
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target homework1_Ex4
-
-
-#############################################
-# Link the executable homework1_Ex4.exe
-
-build homework1_Ex4.exe: CXX_EXECUTABLE_LINKER__homework1_Ex4_Debug CMakeFiles/homework1_Ex4.dir/lecture4/homework1_Ex4.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\homework1_Ex4.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = homework1_Ex4.exe
-  TARGET_IMPLIB = libhomework1_Ex4.dll.a
-  TARGET_PDB = homework1_Ex4.exe.dbg
-
-# =============================================================================
 # Object build statements for EXECUTABLE target tower_of_hanoi
 
 
@@ -600,14 +468,6 @@ build global_variables_1: phony global_variables_1.exe
 
 build global_variables_2: phony global_variables_2.exe
 
-build homework1_Ex1: phony homework1_Ex1.exe
-
-build homework1_Ex2: phony homework1_Ex2.exe
-
-build homework1_Ex3: phony homework1_Ex3.exe
-
-build homework1_Ex4: phony homework1_Ex4.exe
-
 build homework2_Ex1: phony homework2_Ex1.exe
 
 build homework2_Ex2: phony homework2_Ex2.exe
@@ -634,7 +494,7 @@ build week2: phony week2.exe
 #############################################
 # Folder: C:/Users/sonja/Projects/C++Course/cmake-build-debug
 
-build all: phony week2.exe homework1_Ex1.exe homework1_Ex2.exe homework1_Ex3.exe homework1_Ex4.exe tower_of_hanoi.exe global_variables_1.exe global_variables_2.exe string_literal.exe homework2_Ex1.exe homework2_Ex2.exe homework2_Ex3.exe swap.exe pointers_arrays.exe homework3_Ex1.exe exercise.exe
+build all: phony week2.exe tower_of_hanoi.exe global_variables_1.exe global_variables_2.exe string_literal.exe homework2_Ex1.exe homework2_Ex2.exe homework2_Ex3.exe swap.exe pointers_arrays.exe homework3_Ex1.exe exercise.exe
 
 # =============================================================================
 # Built-in targets

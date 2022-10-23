@@ -6,7 +6,7 @@
 624	868	6856332438245302	week3.exe	f4903bf23952e591
 477	620	6872447026762766	week6_1.exe	bbda953956846518
 3	602	6856331698758116	CMakeFiles/week3.dir/lecture1/week3.cpp.obj	96d733ef9047f596
-5	1212	6882280723916463	build.ninja	8c2c4563ef41ee77
+5	1212	6882448130362836	build.ninja	8c2c4563ef41ee77
 4	721	6856345397431764	CMakeFiles/week3_3.dir/main.cpp.obj	31f753fab7bad253
 381	578	6856322722303538	week1_Fahrenheit.exe	716797beb8286199
 746	1022	6847397346251562	C__Course_Lecture1.exe	f5c8c73e36eb5ff1
@@ -17,7 +17,9 @@
 4	709	6856343075810439	CMakeFiles/week3_2.dir/lecture3/week3_Ex2.cpp.obj	e510e7b3b6a6a20d
 420	572	6865567912889928	week5_1.exe	63a3fd112f3bd8ab
 709	979	6856343078473769	week3_2.exe	3cec84cefa268135
+814	1090	6882296549609027	homework1_Ex2.exe	e31c9392e58dc545
 4	580	6856355387161859	CMakeFiles/week3_3.dir/lecture3/week3_Ex3.cpp.obj	b2e4eb2f40fd6329
+9	1204	6882447513974423	CMakeFiles/tower_of_hanoi.dir/lecture4/tower_of_hanoi.cpp.obj	f76689794bd066f7
 581	813	6856355389457519	week3_3.exe	9e38a9f0b9bcfc7c
 4	397	6866930812438108	CMakeFiles/week5_3.dir/lecture5/week5_3_HW2.cpp.obj	5b868f4e6d8cae90
 3	650	6856368555120845	CMakeFiles/week3_4.dir/lecture3/week3_Ex4.cpp.obj	e8380667944a1dcc
@@ -33,9 +35,12 @@
 5	680	6859513667182509	CMakeFiles/week4.dir/lecture4/week4.cpp.obj	b849b00f2f793ecc
 681	944	6859513669771402	week4.exe	4831e05883b74338
 5	664	6859520158209607	CMakeFiles/week4_2.dir/main.cpp.obj	4515c0238cd5b02c
+9	890	6882301146427554	CMakeFiles/homework1_Ex3.dir/lecture4/homework1_Ex3.cpp.obj	d070b25e6d7d1500
+846	1130	6882447212981054	tower_of_hanoi_mine.exe	859e2efb7a4c214e
 635	875	6859528159441978	week4_2.exe	c1542d5ad1f7fcff
 4	1073	6865726370425912	CMakeFiles/week5_4.dir/main.cpp.obj	44b41962b2becf4a
 4	419	6865567911406946	CMakeFiles/week5_1.dir/lecture5/week5_1.cpp.obj	7693cf76306c73fd
+892	1180	6882301149207552	homework1_Ex3.exe	1af854b5aeaa2969
 1	700	6865523340306031	CMakeFiles/week5_1.dir/main.cpp.obj	9995074f82f6bd72
 5	410	6865576658357296	CMakeFiles/week5_2.dir/lecture5/week5_2_HW2.cpp.obj	9c63f6a08ce8cd84
 7	477	6865568084966272	CMakeFiles/week5_2.dir/main.cpp.obj	345a1fc5166874b3
@@ -50,3 +55,8 @@
 4	393	6872786580532367	CMakeFiles/week6_3.dir/lecture6/week6_3.cpp.obj	3e78600b5f32a79e
 5	458	6880678315139649	CMakeFiles/exercise.dir/programming_exercises/w3resource.cpp.obj	2053dee95cd76770
 459	627	6880678317016523	exercise.exe	f476219a5dc7d1ea
+8	845	6882447210261516	CMakeFiles/tower_of_hanoi_mine.dir/lecture4/tower_of_hanoi_mine.cpp.obj	a0460345fd22915f
+1	812	6882296546935078	CMakeFiles/homework1_Ex2.dir/lecture4/homework1_Ex2.cpp.obj	85c805be2f4caedf
+841	1127	6882310094077402	homework1_Ex4.exe	c5d4d317ff993580
+1	839	6882310091314868	CMakeFiles/homework1_Ex4.dir/lecture4/homework1_Ex4.cpp.obj	76bd9fb1f50eb0f3
+1206	2171	6882447522779212	tower_of_hanoi.exe	b222460c3172667a

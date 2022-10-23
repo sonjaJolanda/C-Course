@@ -2,11 +2,6 @@ cmake_minimum_required(VERSION 3.23)
 
 project(week2)
 
-project(homework1_Ex1)
-project(homework1_Ex2)
-project(homework1_Ex3)
-project(homework1_Ex4)
-
 project(tower_of_hanoi)
 project(global_variables_1)
 project(global_variables_2)
@@ -25,11 +20,6 @@ project(exercise)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(week2 lecture1+2+3/week1_2_3.cpp)
-
-add_executable(homework1_Ex1 lecture4/homework1_Ex1.cpp)
-add_executable(homework1_Ex2 lecture4/homework1_Ex2.cpp)
-add_executable(homework1_Ex3 lecture4/homework1_Ex3.cpp)
-add_executable(homework1_Ex4 lecture4/homework1_Ex4.cpp)
 
 add_executable(tower_of_hanoi lecture4/tower_of_hanoi.cpp)
 add_executable(global_variables_1 lecture4/global_variables_1.cpp)
