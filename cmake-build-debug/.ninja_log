@@ -1,10 +1,10 @@
 # ninja log v5
 1	537	6872582581402373	CMakeFiles/week6_3.dir/main.cpp.obj	7717d5a7c23de8e5
-5	634	6859528157063557	CMakeFiles/week4_2.dir/lecture4/week4_2.cpp.obj	c51648e9a7175039
 728	1133	6844359991752426	C__Course_Lecture1_Fahrenheit.exe	521c1d8b1ab0df17
+5	634	6859528157063557	CMakeFiles/week4_2.dir/lecture4/week4_2.cpp.obj	c51648e9a7175039
 477	620	6872447026762766	week6_1.exe	bbda953956846518
 3	602	6856331698758116	CMakeFiles/week3.dir/lecture1/week3.cpp.obj	96d733ef9047f596
-3	536	6882467758793246	build.ninja	8c2c4563ef41ee77
+3	536	6882528833424159	build.ninja	8c2c4563ef41ee77
 4	669	6856333411944899	CMakeFiles/week3_2.dir/main.cpp.obj	c80c4f77cf218541
 624	868	6856332438245302	week3.exe	f4903bf23952e591
 381	578	6856322722303538	week1_Fahrenheit.exe	716797beb8286199
@@ -61,4 +61,14 @@
 1	839	6882310091314868	CMakeFiles/homework1_Ex4.dir/lecture4/homework1_Ex4.cpp.obj	76bd9fb1f50eb0f3
 1206	2171	6882447522779212	tower_of_hanoi.exe	b222460c3172667a
 1	808	6882464594794823	CMakeFiles/string_literal.dir/lecture5/string_literal.cpp.obj	82c8fcd26b1fd5ac
+1	837	6882501911033976	CMakeFiles/pointers_arrays.dir/lecture6/pointers_arrays.cpp.obj	66ea914303243dae
 809	1071	6882464597336840	string_literal.exe	d708336a8f6e51fa
+838	1148	6882501914093054	pointers_arrays.exe	db7dc73e6c34c7
+1	749	6882508036805575	CMakeFiles/homework3_Ex1.dir/lecture6/homework3_Ex1.cpp.obj	846330c7d4cb2988
+750	1025	6882508039455341	homework3_Ex1.exe	5701adfa5face2c3
+1	771	6882508370956385	CMakeFiles/count_chars.dir/lecture6/count_chars.cpp.obj	b53b0ed0eaa12cf1
+772	1035	6882508373463163	count_chars.exe	d3b591b09efd4067
+6	466	6882525664701938	CMakeFiles/pointers_addition.dir/lecture7/pointers_addition.cpp.obj	c84159be08296eed
+467	738	6882525666947133	pointers_addition.exe	cae210f4ed23178c
+0	525	6882528903006908	CMakeFiles/pointers_delete.dir/lecture7/pointers_delete.cpp.obj	49ef3bbe859dc870
+526	775	6882528905133926	pointers_delete.exe	9e7d73686aae59fa
