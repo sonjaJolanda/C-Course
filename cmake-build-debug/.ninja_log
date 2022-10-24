@@ -98,3 +98,7 @@
 414	589	6883184382561865	permut_numbers.exe	f6cd877ad94a8c64
 5	451	6883184946215805	CMakeFiles/permut_numbers.dir/lecture5/permut_numbers.cpp.obj	d41329b0fd96e3a2
 452	641	6883184948041039	permut_numbers.exe	f6cd877ad94a8c64
+1	745	6883192923551247	CMakeFiles/sum_down.dir/lecture5/sum_down.cpp.obj	1e170ec036ef4f29
+746	907	6883192925092044	sum_down.exe	72ffe4d37cfe0ec8
+5	423	6883195707058592	CMakeFiles/sum_down.dir/lecture5/sum_down.cpp.obj	1e170ec036ef4f29
+424	601	6883195708781953	sum_down.exe	72ffe4d37cfe0ec8

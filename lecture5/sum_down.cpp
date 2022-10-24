@@ -12,18 +12,10 @@ int sum_down_rec(int x) {
 }
 
 int sum_down_it(int x) {
-    int temp = 1;
-    int y;
-
-    if (x <= 0)
-        return temp;
-
-    for (int i = 0; i < x; i++) {
-        y = i + temp;
-        y = y + temp;
-        temp = y;
-    }
-    return y;
+    int sum = 1;
+    for (int i = -1; i < x; i++)
+        sum = i + 2 * sum;
+    return sum;
 }
 
 int main() {
