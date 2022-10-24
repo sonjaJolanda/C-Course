@@ -26,5 +26,7 @@ int main() {
     std::cout << ">> size of wages[0]: " << sizeof(wages[0]) << std::endl; // 8
     std::cout << ">> size of pw pointer: " << sizeof(pw) << std::endl; // 8
 
+    std::cout << ">> size of stacks[0]: " << sizeof(stacks[0]) << std::endl; // 8
+
     return 0;
 }

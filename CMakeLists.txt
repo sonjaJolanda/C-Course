@@ -16,6 +16,7 @@ project(count_chars)
 
 project(pointers_addition)
 project(pointers_delete)
+project(pointers_strings)
 
 project(exercise)
 
@@ -37,5 +38,6 @@ add_executable(count_chars lecture6/count_chars.cpp)
 
 add_executable(pointers_addition lecture7/pointers_addition.cpp)
 add_executable(pointers_delete lecture7/pointers_delete.cpp)
+add_executable(pointers_strings lecture7/pointers_strings.cpp)
 
 add_executable(exercise programming_exercises/w3resource.cpp)

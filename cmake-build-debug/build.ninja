@@ -437,6 +437,39 @@ build pointers_delete.exe: CXX_EXECUTABLE_LINKER__pointers_delete_Debug CMakeFil
   TARGET_PDB = pointers_delete.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target pointers_strings
+
+
+#############################################
+# Order-only phony target for pointers_strings
+
+build cmake_object_order_depends_target_pointers_strings: phony || CMakeFiles/pointers_strings.dir
+
+build CMakeFiles/pointers_strings.dir/lecture7/pointers_strings.cpp.obj: CXX_COMPILER__pointers_strings_Debug C$:/Users/sonja/Projects/C++Course/lecture7/pointers_strings.cpp || cmake_object_order_depends_target_pointers_strings
+  DEP_FILE = CMakeFiles\pointers_strings.dir\lecture7\pointers_strings.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\pointers_strings.dir
+  OBJECT_FILE_DIR = CMakeFiles\pointers_strings.dir\lecture7
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target pointers_strings
+
+
+#############################################
+# Link the executable pointers_strings.exe
+
+build pointers_strings.exe: CXX_EXECUTABLE_LINKER__pointers_strings_Debug CMakeFiles/pointers_strings.dir/lecture7/pointers_strings.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\pointers_strings.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = pointers_strings.exe
+  TARGET_IMPLIB = libpointers_strings.dll.a
+  TARGET_PDB = pointers_strings.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target exercise
 
 
@@ -515,6 +548,8 @@ build pointers_arrays_2: phony pointers_arrays_2.exe
 
 build pointers_delete: phony pointers_delete.exe
 
+build pointers_strings: phony pointers_strings.exe
+
 build sum_down: phony sum_down.exe
 
 build tower_of_hanoi: phony tower_of_hanoi.exe
@@ -529,7 +564,7 @@ build week2: phony week2.exe
 #############################################
 # Folder: C:/Users/sonja/Projects/C++Course/cmake-build-debug
 
-build all: phony week2.exe tower_of_hanoi.exe global_variables_1.exe global_variables_2.exe binomial_coefficient.exe permut_numbers.exe sum_down.exe pointers_arrays.exe pointers_arrays_2.exe count_chars.exe pointers_addition.exe pointers_delete.exe exercise.exe
+build all: phony week2.exe tower_of_hanoi.exe global_variables_1.exe global_variables_2.exe binomial_coefficient.exe permut_numbers.exe sum_down.exe pointers_arrays.exe pointers_arrays_2.exe count_chars.exe pointers_addition.exe pointers_delete.exe pointers_strings.exe exercise.exe
 
 # =============================================================================
 # Built-in targets
