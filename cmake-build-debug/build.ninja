@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: exercise
+# Project: midterm4
 # Configurations: Debug
 # =============================================================================
 
@@ -502,6 +502,138 @@ build exercise.exe: CXX_EXECUTABLE_LINKER__exercise_Debug CMakeFiles/exercise.di
   TARGET_IMPLIB = libexercise.dll.a
   TARGET_PDB = exercise.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target midterm1
+
+
+#############################################
+# Order-only phony target for midterm1
+
+build cmake_object_order_depends_target_midterm1: phony || CMakeFiles/midterm1.dir
+
+build CMakeFiles/midterm1.dir/programming_exercises/midterm1.cpp.obj: CXX_COMPILER__midterm1_Debug C$:/Users/sonja/Projects/C++Course/programming_exercises/midterm1.cpp || cmake_object_order_depends_target_midterm1
+  DEP_FILE = CMakeFiles\midterm1.dir\programming_exercises\midterm1.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\midterm1.dir
+  OBJECT_FILE_DIR = CMakeFiles\midterm1.dir\programming_exercises
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target midterm1
+
+
+#############################################
+# Link the executable midterm1.exe
+
+build midterm1.exe: CXX_EXECUTABLE_LINKER__midterm1_Debug CMakeFiles/midterm1.dir/programming_exercises/midterm1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\midterm1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = midterm1.exe
+  TARGET_IMPLIB = libmidterm1.dll.a
+  TARGET_PDB = midterm1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target midterm2
+
+
+#############################################
+# Order-only phony target for midterm2
+
+build cmake_object_order_depends_target_midterm2: phony || CMakeFiles/midterm2.dir
+
+build CMakeFiles/midterm2.dir/programming_exercises/midterm2.cpp.obj: CXX_COMPILER__midterm2_Debug C$:/Users/sonja/Projects/C++Course/programming_exercises/midterm2.cpp || cmake_object_order_depends_target_midterm2
+  DEP_FILE = CMakeFiles\midterm2.dir\programming_exercises\midterm2.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\midterm2.dir
+  OBJECT_FILE_DIR = CMakeFiles\midterm2.dir\programming_exercises
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target midterm2
+
+
+#############################################
+# Link the executable midterm2.exe
+
+build midterm2.exe: CXX_EXECUTABLE_LINKER__midterm2_Debug CMakeFiles/midterm2.dir/programming_exercises/midterm2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\midterm2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = midterm2.exe
+  TARGET_IMPLIB = libmidterm2.dll.a
+  TARGET_PDB = midterm2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target midterm3
+
+
+#############################################
+# Order-only phony target for midterm3
+
+build cmake_object_order_depends_target_midterm3: phony || CMakeFiles/midterm3.dir
+
+build CMakeFiles/midterm3.dir/programming_exercises/midterm3.cpp.obj: CXX_COMPILER__midterm3_Debug C$:/Users/sonja/Projects/C++Course/programming_exercises/midterm3.cpp || cmake_object_order_depends_target_midterm3
+  DEP_FILE = CMakeFiles\midterm3.dir\programming_exercises\midterm3.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\midterm3.dir
+  OBJECT_FILE_DIR = CMakeFiles\midterm3.dir\programming_exercises
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target midterm3
+
+
+#############################################
+# Link the executable midterm3.exe
+
+build midterm3.exe: CXX_EXECUTABLE_LINKER__midterm3_Debug CMakeFiles/midterm3.dir/programming_exercises/midterm3.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\midterm3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = midterm3.exe
+  TARGET_IMPLIB = libmidterm3.dll.a
+  TARGET_PDB = midterm3.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target midterm4
+
+
+#############################################
+# Order-only phony target for midterm4
+
+build cmake_object_order_depends_target_midterm4: phony || CMakeFiles/midterm4.dir
+
+build CMakeFiles/midterm4.dir/programming_exercises/midterm4.cpp.obj: CXX_COMPILER__midterm4_Debug C$:/Users/sonja/Projects/C++Course/programming_exercises/midterm4.cpp || cmake_object_order_depends_target_midterm4
+  DEP_FILE = CMakeFiles\midterm4.dir\programming_exercises\midterm4.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\midterm4.dir
+  OBJECT_FILE_DIR = CMakeFiles\midterm4.dir\programming_exercises
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target midterm4
+
+
+#############################################
+# Link the executable midterm4.exe
+
+build midterm4.exe: CXX_EXECUTABLE_LINKER__midterm4_Debug CMakeFiles/midterm4.dir/programming_exercises/midterm4.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\midterm4.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = midterm4.exe
+  TARGET_IMPLIB = libmidterm4.dll.a
+  TARGET_PDB = midterm4.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -538,6 +670,14 @@ build global_variables_1: phony global_variables_1.exe
 
 build global_variables_2: phony global_variables_2.exe
 
+build midterm1: phony midterm1.exe
+
+build midterm2: phony midterm2.exe
+
+build midterm3: phony midterm3.exe
+
+build midterm4: phony midterm4.exe
+
 build permut_numbers: phony permut_numbers.exe
 
 build pointers_addition: phony pointers_addition.exe
@@ -564,7 +704,7 @@ build week2: phony week2.exe
 #############################################
 # Folder: C:/Users/sonja/Projects/C++Course/cmake-build-debug
 
-build all: phony week2.exe tower_of_hanoi.exe global_variables_1.exe global_variables_2.exe binomial_coefficient.exe permut_numbers.exe sum_down.exe pointers_arrays.exe pointers_arrays_2.exe count_chars.exe pointers_addition.exe pointers_delete.exe pointers_strings.exe exercise.exe
+build all: phony week2.exe tower_of_hanoi.exe global_variables_1.exe global_variables_2.exe binomial_coefficient.exe permut_numbers.exe sum_down.exe pointers_arrays.exe pointers_arrays_2.exe count_chars.exe pointers_addition.exe pointers_delete.exe pointers_strings.exe exercise.exe midterm1.exe midterm2.exe midterm3.exe midterm4.exe
 
 # =============================================================================
 # Built-in targets

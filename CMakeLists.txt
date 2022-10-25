@@ -19,6 +19,10 @@ project(pointers_delete)
 project(pointers_strings)
 
 project(exercise)
+project(midterm1)
+project(midterm2)
+project(midterm3)
+project(midterm4)
 
 set(CMAKE_CXX_STANDARD 14)
 
@@ -41,3 +45,7 @@ add_executable(pointers_delete lecture7/pointers_delete.cpp)
 add_executable(pointers_strings lecture7/pointers_strings.cpp)
 
 add_executable(exercise programming_exercises/w3resource.cpp)
+add_executable(midterm1 programming_exercises/midterm1.cpp)
+add_executable(midterm2 programming_exercises/midterm2.cpp)
+add_executable(midterm3 programming_exercises/midterm3.cpp)
+add_executable(midterm4 programming_exercises/midterm4.cpp)
