@@ -24,6 +24,9 @@ project(midterm2)
 project(midterm3)
 project(midterm4)
 
+project(student)
+project(homework1)
+
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(week2 lecture1+2+3/week1_2_3.cpp)
@@ -32,7 +35,7 @@ add_executable(tower_of_hanoi lecture4/tower_of_hanoi.cpp)
 add_executable(global_variables_1 lecture4/global_variables_1.cpp)
 add_executable(global_variables_2 lecture4/global_variables_2.cpp)
 
-add_executable(binomial_coefficient lecture5/binomial_coefficient.cpp)
+add_executable(binomial_coefficient lecture5/binomial_coefficient.cpp lecture10/Student.cpp)
 add_executable(permut_numbers lecture5/permut_numbers.cpp)
 add_executable(sum_down lecture5/sum_down.cpp)
 
@@ -49,3 +52,6 @@ add_executable(midterm1 programming_exercises/midterm1.cpp)
 add_executable(midterm2 programming_exercises/midterm2.cpp)
 add_executable(midterm3 programming_exercises/midterm3.cpp)
 add_executable(midterm4 programming_exercises/midterm4.cpp)
+
+add_executable(student lecture10/Student.cpp)
+add_executable(homework1 lecture10/homework1.cpp)
