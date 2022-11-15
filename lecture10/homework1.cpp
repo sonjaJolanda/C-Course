@@ -47,5 +47,7 @@ void print_students_of_given_course(int course_id) {
             std::cout << " NOT ENROLLED " << std::endl;
     }
 
+    // Todo this doesnt work because i need call by reference -> just add a & (-> int &e) in the method parameters
+    // ToDo call the destructors with delete keyword!
 }
 
