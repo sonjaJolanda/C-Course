@@ -26,6 +26,7 @@ project(midterm4)
 
 project(student)
 project(homework1)
+project(homework1_stack)
 
 set(CMAKE_CXX_STANDARD 14)
 
@@ -55,3 +56,4 @@ add_executable(midterm4 programming_exercises/midterm4.cpp)
 
 add_executable(student lecture10/Student.cpp)
 add_executable(homework1 lecture10/homework1.cpp)
+add_executable(homework1_stack lecture10_for_stackoverflow/homework1.cpp)
