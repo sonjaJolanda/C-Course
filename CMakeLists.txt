@@ -28,6 +28,8 @@ project(student)
 project(homework4)
 project(homework5)
 
+project(linkedList-generic)
+
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(week2 lecture1+2+3/week1_2_3.cpp)
@@ -58,3 +60,5 @@ add_executable(student lecture10/Student.cpp)
 add_executable(homework4 lecture10/homework4.cpp)
 
 add_executable(homework5 lecture11/homework5.cpp)
+
+add_executable(linkedList-generic lecture12/linkedList-generic.cpp)
