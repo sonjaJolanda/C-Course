@@ -9,7 +9,7 @@ void myfunction(int i) {
 }
 
 struct myclass {
-	void operator() (int i) { cout << " " << i; }
+	void operator() (int i) { cout << " " << i; } // functor ToDo GOOGLE
 } myobject;
 
 int main() {
