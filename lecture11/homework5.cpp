@@ -13,7 +13,7 @@ class Character : public Object {
 protected:
     char ch; // 2.
 public:
-    Character operator+(Character &c) {
+    Character operator+(const Character &c) {
         Character result;
         result.ch = (char) (((int) this->ch + ((int) c.ch)) % 128);
         return result;
