@@ -61,7 +61,7 @@ add_executable(midterm4 programming_exercises/midterm4.cpp)
 add_executable(student lecture10/Student.cpp)
 add_executable(homework4 lecture10/homework4.cpp)
 
-add_executable(homework5 lecture11/homework5.cpp)
+add_executable(homework5 lecture11/homework5.cpp lecture11/visibility.cpp)
 
 add_executable(linkedList-generic lecture12/linkedList-generic.cpp)
 

@@ -53,7 +53,7 @@ class Consonant : public Letter {
 
 };
 
-void main() {
+int main() {
 	// question 7
 	Object cObj1;
 	Object cObj2;
@@ -69,3 +69,6 @@ void main() {
 	Consonant cObj12;
 	std::cout << Object::counter << std::endl;
 } // function
+
+
+

@@ -1,7 +1,7 @@
 #include <iostream>
 
 class Circle {
-	protected : // change this line to pivate and check the effect!
+	protected : // change this line to private and check the effect!
 		double radius;
 	public :
 		Circle();
