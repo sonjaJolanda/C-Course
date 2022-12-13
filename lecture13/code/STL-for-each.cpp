@@ -1,4 +1,3 @@
-// for_each example
 #include <iostream>
 #include <algorithm>
 #include <vector>
@@ -25,7 +24,7 @@ int main() {
 	cout << "\nUsing functor:";
 	for_each(myvector.begin(), myvector.end(), myobject);
 
-	// or: Range - based for loop(since C++11)
+	// or: Range - based for loop (since C++11)
 	cout << "\nRange - based for loop(since C++11):";
 	for (int i : myvector) 
 		myfunction(i);

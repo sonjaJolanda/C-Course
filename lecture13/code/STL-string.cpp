@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-void main() {
+int main() {
 	string s0;
 	string s1 = "cat";
 	string s2 = "alogue";
@@ -15,7 +15,7 @@ void main() {
 
 	cout << s0.substr(at,3) << endl;
 
-	s1.replace(2,1,"nary"); // substing replacement
+	s1.replace(2,1,"nary"); // substring replacement
 
 	char c = s2[4]; // access to single characters
 

@@ -31,7 +31,7 @@ void fun() {
 	std::cout << "BC\n";
 }
 
-void main() {
+int main() {
 	try {
 		std::cout << "A\n"; 
 		fun();
@@ -48,10 +48,10 @@ void main() {
 		e.what();
 	}
 	// Problem 2d)
-	catch( Exception *e ) { // catch by pointer
-		 e->what(); // equal to (*e).what();
+	catch( Exception *e ) { // catch by pointer ToDo
+		 e->what(); // equal to (*e).what(); ToDo
 		 delete e; // if we forget this, we have a memory leak
-		 // the risk of this memory leak can be avoided via catching by reference
+		 // the risk of this memory leak can be avoided via catch by reference
 	}
 	catch (...) { 
 		std::cout << "E\n";

@@ -1,4 +1,5 @@
 #include <iostream>
+
 using namespace std;
 
 template <class TP> 
@@ -11,7 +12,7 @@ char* max_value(char* d1, char* d2) {
 	return (strcmp(d1,d2)>0) ? d1 : d2; 
 } 
 
-void main() {
+int main() {
 	cout << max_value(4, 12) << endl;
 	cout << max_value(2.0, 5.0) << endl;
 	cout << max_value('A', 'C') << endl;

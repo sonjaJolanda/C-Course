@@ -4,26 +4,22 @@
 
 using namespace std;
 
-void main() {
-	list<string> names;
+int main() {
+    list<string> names;
 
-	names.push_back("Kim");
-	names.push_back("Park");
-	names.push_back("Lee");
-	names.push_back("Gang");
-	
-	// iterator based list output
-	for (list<string>::iterator  ai = names.begin(); 
-		                         ai != names.end(); 
-								 ai++)
-		cout << *ai << endl;
+    names.push_back("Kim");
+    names.push_back("Park");
+    names.push_back("Lee");
+    names.push_back("Gang");
 
-	cout << endl;
-	names.reverse(); // we reverse the list
+    // iterator based list output
+    for (list<string>::iterator ai = names.begin(); ai != names.end(); ai++)
+        cout << *ai << endl;
 
-	for (list<string>::iterator  ai = names.begin(); 
-		                         ai != names.end(); 
-								 ai++)
-		cout << *ai << endl;
+    cout << endl;
+    names.reverse(); // we reverse the list
+
+    for (list<string>::iterator ai = names.begin(); ai != names.end(); ai++)
+        cout << *ai << endl;
 
 }

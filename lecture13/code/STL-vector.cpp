@@ -4,7 +4,7 @@
 
 using namespace std;
 
-void main() {
+int main() {
 	vector<string> names;
 
 	names.push_back("Kim");

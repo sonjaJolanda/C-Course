@@ -6,7 +6,8 @@ class Circle {
 	public :
 		Circle();
 		Circle(double r);
-		virtual double area(); 
+
+        virtual double area();
 };
 
 Circle::Circle() {

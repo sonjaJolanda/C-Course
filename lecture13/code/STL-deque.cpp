@@ -14,7 +14,6 @@ int main() {
 	names.push_back("Gang");
 
 	for (unsigned int i = 0; i < names.size(); i++)
-		// will throw exception if no element at i
 		cout << i << names.at(i) << endl;
 
 	names[2] = "Walter";
